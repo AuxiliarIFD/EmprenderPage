@@ -213,3 +213,7 @@ footer.site .copy{color:var(--band-fg)}
 .proj-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:20px;display:block}
 .player{overflow:hidden}.player .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}.player button,.player .t{position:relative;z-index:1}.player .t{position:absolute}
 [hidden]{display:none!important}
+
+/* Campo trampa antispam (oculto para personas) */
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+button[disabled]{opacity:.6;cursor:wait}
