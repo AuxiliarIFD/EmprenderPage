@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Emprender 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/Styles.css">
+  <link rel="icon" type="image/webp" href="img/logo-emprender-2025.webp">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo" viewBox="0 0 64 64"><circle cx="21" cy="24" r="10" fill="#8BC53F" stroke="#2B2522" stroke-width="3"/><circle cx="43" cy="24" r="10" fill="#8BC53F" stroke="#2B2522" stroke-width="3"/><circle cx="32" cy="16" r="11" fill="#8BC53F" stroke="#2B2522" stroke-width="3"/><circle cx="32" cy="20" r="11" fill="#8BC53F"/><circle cx="32" cy="17" r="2.6" fill="#2B2522"/><path d="M32 20v12M26 23l6 2 6-2" stroke="#2B2522" stroke-width="3" stroke-linecap="round" fill="none"/><path d="M32 32v16" stroke="#2B2522" stroke-width="3.5" stroke-linecap="round"/><path d="M8 50c8-6 16-6 24-2 8-4 16-4 24 2v8c-8-5-16-5-24-1-8-4-16-4-24 1z" fill="#59CBE8" stroke="#2B2522" stroke-width="3" stroke-linejoin="round"/><path d="M11 47c7-4 14-4 21 0M53 47c-7-4-14-4-21 0" stroke="#F1EB9C" stroke-width="4" stroke-linecap="round" fill="none"/></symbol>
+  <symbol id="canopy" viewBox="0 0 64 56"><circle cx="32" cy="18" r="16"/><circle cx="18" cy="31" r="16" opacity=".75"/><circle cx="46" cy="31" r="16" opacity=".75"/></symbol>
+  <symbol id="i-bach" viewBox="0 0 64 64"><path d="M10 26v22c7-3 15-3 22 1 7-4 15-4 22-1V26"/><path d="M14 18l18-7 18 7-18 7z"/></symbol>
+  <symbol id="i-mayor" viewBox="0 0 64 64"><path d="M32 36s-12-7-12-15a6.5 6.5 0 0 1 12-3 6.5 6.5 0 0 1 12 3c0 8-12 15-12 15z"/><path d="M14 46c8-3 14 0 20 2l14-4"/></symbol>
+  <symbol id="i-salud" viewBox="0 0 64 64"><path d="M38 54v-7h5a4 4 0 0 0 4-4v-5h4l-4-7a17 17 0 1 0-29 14v9"/><path d="M30 36v-9c-6 0-8-4-8-8 5 0 8 3 8 8"/></symbol>
+  <symbol id="i-amb" viewBox="0 0 64 64"><path d="M12 50h40M32 50V28"/><path d="M32 34c-10 0-14-6-14-14 8 0 14 6 14 14zM32 30c0-8 6-14 14-14 0 8-6 14-14 14z"/></symbol>
+  <symbol id="i-fam" viewBox="0 0 64 64"><path d="M10 30L32 12l22 18"/><circle cx="20" cy="38" r="5"/><circle cx="44" cy="38" r="5"/><path d="M10 56v-4a10 10 0 0 1 20 0v4M34 56v-4a10 10 0 0 1 20 0v4"/></symbol>
+  <symbol id="i-jac" viewBox="0 0 64 64"><path d="M44 10v24M44 10h12l-4 5 4 5H44"/><circle cx="20" cy="32" r="5"/><circle cx="36" cy="34" r="5"/><path d="M8 54v-4a12 12 0 0 1 24 0v4M24 56v-4a12 12 0 0 1 24 0v4"/></symbol>
+</svg>
+
+<!-- ============ SITIO INSTITUCIONAL ============ -->
+<div id="sitio">
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Emprender 2025, inicio"><span class="logo-img" role="img" aria-label="Emprender 2025, Modelo Educativo Flexible" style="width:196px;height:72px;padding:4px"></span></a>
+    <button class="menubtn" type="button" id="menubtn" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#inicio" data-scroll="modelos">Modelos y proyectos</a>
+      <a href="#inicio" data-scroll="implementacion">Cómo trabajamos</a>
+      <a href="#alianzas">Trabajemos juntos</a>
+      <a href="#inicio" data-scroll="actualidad">Actualidad</a>
+      <a href="#portal" class="btn btn-line btn-sm">Portal educativo</a>
+      <a href="#alianzas" class="btn btn-green btn-sm">Solicitar propuesta</a>
+    </nav>
+  </div>
+</header>
+
+<!-- INICIO -->
+<section id="p-inicio" class="page">
+  <div class="hero">
+    <svg class="canopy" aria-hidden="true"><use href="#canopy" fill="#8BC53F"/></svg>
+    <div class="wrap">
+      <div class="text">
+        <h1>Educación formal y flexible para los territorios que más la necesitan.</h1>
+        <p class="lead">Diseñamos y operamos Modelos Educativos Flexibles con gobernaciones, alcaldías, el ICBF y organizaciones sociales, en el marco del Decreto 1075 de 2015 del Ministerio de Educación Nacional. Un modelo que nació en Ibagué, Tolima, y hoy opera en todos los departamentos del país: veinte años, 92 municipios y más de 57.000 estudiantes graduados.</p>
+        <div class="btns"><a class="btn btn-green" href="#inicio" data-scroll="modelos">Conozca los programas</a><a class="btn btn-line" href="#inicio" data-scroll="video">Ver el video (2 min)</a><a class="btn btn-line" href="#alianzas">Trabajemos juntos</a></div>
+      </div>
+      <div class="visual">
+        <img class="hero-img" src="img/hero-docente-aula-rural.jpg" alt="Docente del Modelo Educativo Flexible dictando clase a jóvenes y adultos en un aula rural">
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-block:40px 64px">
+    <div class="grid g4">
+      <div class="rule-top rule-green stack" style="gap:4px"><span class="num">+57.000</span><span class="small">estudiantes graduados con el Modelo Educativo Flexible</span></div>
+      <div class="rule-top rule-blue stack" style="gap:4px"><span class="num">32</span><span class="small">departamentos del país donde operamos</span></div>
+      <div class="rule-top rule-yellow stack" style="gap:4px"><span class="num">92</span><span class="small">municipios con programas implementados</span></div>
+      <div class="rule-top rule-teal stack" style="gap:4px"><span class="num">20</span><span class="small">años operando programas educativos de impacto social</span></div>
+    </div>
+  </div>
+
+  <div class="band ink" id="video">
+    <div class="wrap split" style="align-items:center">
+      <div class="col" style="flex:1 1 300px;gap:16px">
+        <span class="small" style="font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8BC53F">Video institucional · 2 min</span>
+        <h2>La educación transforma realidades</h2>
+        <p class="lead">Dos minutos para conocer Emprender 2025: el bachillerato para jóvenes y adultos, la salud mental escolar, el poder de la familia, la educación ambiental, el diplomado de atención integral al adulto mayor y el liderazgo comunal, en los territorios donde operamos.</p>
+        <a class="btn btn-green btn-sm" style="align-self:flex-start" href="#alianzas">Solicitar la presentación institucional</a>
+      </div>
+      <div style="flex:2 1 520px;min-width:0">
+        <video class="video" controls playsinline preload="metadata" poster="img/video-institucional-poster.jpg" src="img/video-institucional.mp4" aria-label="Video institucional de Emprender 2025: la educación transforma realidades">Su navegador no reproduce video. Escríbanos a formareducacion@yahoo.es y se lo enviamos.</video>
+      </div>
+    </div>
+  </div>
+
+  <div class="band paper">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 400px">
+        <h2>Un modelo educativo flexible, con respaldo legal y resultados en territorio</h2>
+        <p class="lead">Nuestro propósito es abrir escenarios de inclusión a la educación formal sin que el estudiante abandone sus actividades productivas, su familia ni su entorno. Trabajamos con niños, jóvenes, adultos, personas mayores, madres cabeza de familia, víctimas del conflicto y población en condición de vulnerabilidad.</p>
+        <blockquote style="border-left:4px solid var(--green);padding:6px 0 6px 20px" class="stack">
+          <p>"Los Modelos Educativos Flexibles son estrategias de cobertura, calidad, pertinencia, permanencia y equidad del servicio público educativo, ajustadas a las necesidades de los estudiantes en tiempo, ubicación geográfica y condiciones de vulnerabilidad."</p>
+          <cite class="note" style="font-style:normal">Ministerio de Educación Nacional</cite>
+        </blockquote>
+      </div>
+      <div style="flex:1 1 420px">
+        <div class="eje"><svg width="44" height="40" aria-hidden="true"><use href="#canopy" fill="#59CBE8"/></svg><div class="stack" style="gap:6px"><h3>Saberes básicos</h3><p class="small">Contenidos y competencias fundamentales para la vida académica y cotidiana, organizados por ciclos y periodos.</p></div></div>
+        <div class="eje"><svg width="44" height="40" aria-hidden="true"><use href="#canopy" fill="#F1EB9C"/></svg><div class="stack" style="gap:6px"><h3>Desarrollo humano</h3><p class="small">Formación en valores, autoconocimiento y proyecto de vida, con enfoque de derechos, territorial y diferencial.</p></div></div>
+        <div class="eje"><svg width="44" height="40" aria-hidden="true"><use href="#canopy" fill="#8BC53F"/></svg><div class="stack" style="gap:6px"><h3>Emprendimiento</h3><p class="small">Herramientas para generar ingresos, autonomía e independencia económica; cada ciclo cierra con una Feria de Emprendimiento.</p></div></div>
+        <p class="small" style="padding-top:16px">Cada modelo incorpora Recursos Educativos Digitales (RED) y Objetos Virtuales de Aprendizaje (OVA) a través del portal educativo, y entrega material físico completo a estudiantes y docentes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="band" id="modelos">
+    <div class="wrap col" style="gap:36px">
+      <div class="split" style="justify-content:space-between;align-items:flex-end">
+        <div class="stack" style="max-width:680px"><h2>Modelos y proyectos</h2><p class="lead">Seis programas diseñados para ser contratados e implementados por entidades territoriales, instituciones educativas y organizaciones sociales. Cada uno tiene marco legal, ruta de implementación e indicadores de resultado.</p></div>
+        <a class="btn btn-line" href="#alianzas">Solicitar información</a>
+      </div>
+      <div>
+        <div class="row">
+          <div class="main"><div class="tile" style="background:#8BC53F"><svg width="34" height="34" fill="none" stroke="#1F2A10" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-bach"/></svg></div><div class="stack" style="gap:6px"><h3>Programa Jóvenes y Adultos</h3><p>Bachillerato por Ciclos Lectivos Especiales Integrados (CLEI II al VI) para quienes no terminaron el colegio. Kit escolar, docentes formados y portal educativo.</p></div></div>
+          <div class="c"><span class="lbl">Población</span><p>Mayores de 15 años sin bachillerato: trabajadores, población vulnerable y desplazada, personas privadas de la libertad, policías y soldados sin título, campesinos</p></div>
+          <div class="c"><span class="lbl">Respaldo</span><p>Decreto 1075 de 2015 · Circular 018 de 2025 MEN</p></div>
+          <div class="c s"><span class="lbl">Lo contratan</span><p>Alcaldías, gobernaciones, secretarías de educación</p></div>
+          <a class="ver" href="#modelo">Ver programa</a>
+        </div>
+        <div class="row">
+          <div class="main"><div class="tile" style="background:#7AD1C1"><svg width="34" height="34" fill="none" stroke="#0E3A48" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-mayor"/></svg></div><div class="stack" style="gap:6px"><h3>Diplomado en Atención Integral del Adulto Mayor</h3><p>Formación corta para cuidadores, con créditos académicos, módulo transversal de salud básica y salida laboral inmediata.</p></div></div>
+          <div class="c"><span class="lbl">Población</span><p>Cuidadores familiares y comunitarios; 6,8 millones de colombianos mayores de 59 años</p></div>
+          <div class="c"><span class="lbl">Respaldo</span><p>Política de Envejecimiento Humano y Vejez · Ley 1251 de 2008</p></div>
+          <div class="c s"><span class="lbl">Lo contratan</span><p>Gobernaciones, alcaldías, ONG, programas de adulto mayor</p></div>
+          <a class="ver" href="#adulto-mayor">Ver programa</a>
+        </div>
+        <div class="row">
+          <div class="main"><div class="tile" style="background:#59CBE8"><svg width="34" height="34" fill="none" stroke="#0E3A48" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-salud"/></svg></div><div class="stack" style="gap:6px"><h3>Modelo de Salud Mental en la Educación Regular</h3><p>Sistema integral de bienestar escolar: doce módulos, cuatro niveles (promoción, prevención, detección temprana, remisión) y Pasaporte de Bienestar por estudiante.</p></div></div>
+          <div class="c"><span class="lbl">Población</span><p>Estudiantes, familias, docentes y orientadores; 9,3 millones de estudiantes en el país</p></div>
+          <div class="c"><span class="lbl">Respaldo</span><p>Ley 2460 de 2025 · Referentes curriculares MEN 2026</p></div>
+          <div class="c s"><span class="lbl">Lo contratan</span><p>Secretarías de educación, gobernaciones, instituciones educativas</p></div>
+          <a class="ver" href="#salud-mental">Ver programa</a>
+        </div>
+        <div class="row">
+          <div class="main"><div class="tile" style="background:#2B2522"><svg width="34" height="34" fill="none" stroke="#8BC53F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-amb"/></svg></div><div class="stack" style="gap:6px"><h3>Educación Ambiental y Emprendimiento Verde</h3><p>Cinco módulos que fortalecen el PRAE y terminan en proyectos ambientales y modelos de negocio sostenibles, de preescolar a media.</p></div></div>
+          <div class="c"><span class="lbl">Población</span><p>Instituciones educativas oficiales; estudiantes y docentes de todos los niveles</p></div>
+          <div class="c"><span class="lbl">Respaldo</span><p>ODS 1, 4, 13 y 17 · Agenda 2030 · lineamientos Minambiente</p></div>
+          <div class="c s"><span class="lbl">Lo contratan</span><p>Alcaldías, gobernaciones, corporaciones autónomas, ONG</p></div>
+          <a class="ver" href="#ambiental">Ver programa</a>
+        </div>
+        <div class="row">
+          <div class="main"><div class="tile" style="background:#F1EB9C"><svg width="34" height="34" fill="none" stroke="#2B2522" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-fam"/></svg></div><div class="stack" style="gap:6px"><h3>El Poder de la Familia</h3><p>Programa de educación y fortalecimiento familiar en cuatro módulos, alineado con la Política Nacional para la Familia, que cierra con el Árbol de los Sueños.</p></div></div>
+          <div class="c"><span class="lbl">Población</span><p>Familias urbanas y rurales; comunidades educativas y sector pastoral</p></div>
+          <div class="c"><span class="lbl">Respaldo</span><p>Política Nacional para la Familia · enfoque de derechos y de género</p></div>
+          <div class="c s"><span class="lbl">Lo contratan</span><p>Alcaldías, ICBF, comisarías de familia, ONG</p></div>
+          <a class="ver" href="#familia">Ver programa</a>
+        </div>
+        <div class="row">
+          <div class="main"><div class="tile" style="background:#1E8FB3"><svg width="34" height="34" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-jac"/></svg></div><div class="stack" style="gap:6px"><h3>Liderazgo Comunal para Juntas de Acción Comunal</h3><p>Cinco módulos y una ruta de campo de tres meses que termina en un Plan de Acción Comunitario por barrio, listo para presentar a la Alcaldía.</p></div></div>
+          <div class="c"><span class="lbl">Población</span><p>Presidentes y dignatarios de JAC, Asojuntas y organizaciones de base</p></div>
+          <div class="c"><span class="lbl">Respaldo</span><p>Ley 2166 de 2021 · plan de desarrollo territorial</p></div>
+          <div class="c s"><span class="lbl">Lo contratan</span><p>Alcaldías y gobernaciones (secretarías de desarrollo comunitario)</p></div>
+          <a class="ver" href="#jac">Ver programa</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band paper" id="implementacion">
+    <div class="wrap col" style="gap:40px">
+      <div class="stack" style="max-width:720px"><h2>Del convenio a la graduación: la ruta del Programa Jóvenes y Adultos</h2><p class="lead">Esta ruta de ocho pasos es propia del Modelo Educativo Flexible de bachillerato por ciclos (CLEI II al VI). La metodología y el material ya existen y están validados, por eso la puesta en marcha con la entidad territorial es inmediata: firmado el convenio, el equipo entra al territorio. Los demás programas tienen su propia ruta, descrita en la página de cada uno.</p></div>
+      <ol class="steps">
+        <li><span class="stepn">1</span><h3>Selección de instituciones</h3><p>Con la secretaría de educación, según cobertura y necesidad.</p></li>
+        <li><span class="stepn">2</span><h3>Focalización de estudiantes</h3><p>Censo, convocatoria y ubicación por ciclo o módulo.</p></li>
+        <li><span class="stepn">3</span><h3>Articulación al PEI</h3><p>El modelo se integra al proyecto educativo de cada institución.</p></li>
+        <li><span class="stepn">4</span><h3>Capacitación docente</h3><p>Formación en el modelo, guía docente y acceso al portal.</p></li>
+        <li><span class="stepn">5</span><h3>Entrega de ayudas educativas</h3><p>Kit completo para cada estudiante y docente.</p></li>
+        <li><span class="stepn">6</span><h3>Seguimiento mensual</h3><p>Supervisores y coordinadores académicos en campo y en el portal.</p></li>
+        <li><span class="stepn">7</span><h3>Feria de Emprendimiento</h3><p>Los estudiantes presentan sus proyectos a la comunidad.</p></li>
+        <li><span class="stepn">8</span><h3>Cierre y sistematización</h3><p>Informe de resultados e indicadores para la entidad.</p></li>
+      </ol>
+      <div class="split" style="gap:32px">
+        <p class="small" style="flex:1 1 300px"><strong style="color:var(--fg)">Equipo en territorio.</strong> Docentes, supervisores, coordinadores académicos, logística y sistemas: un equipo humano contratado localmente para cada proyecto.</p>
+        <p class="small" style="flex:1 1 300px"><strong style="color:var(--fg)">Indicadores que se entregan.</strong> Cobertura, permanencia, estudiantes graduados, docentes capacitados, familias vinculadas y proyectos de emprendimiento formulados.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="band ink">
+    <div class="wrap col" style="gap:44px">
+      <div class="stack" style="max-width:720px"><h2>Trabajemos juntos</h2><p class="lead">No vendemos cursos al público. Nuestros programas llegan a las personas a través de entidades que los contratan o financian. Hay tres caminos.</p></div>
+      <div class="grid g3" style="gap:32px">
+        <div class="stack" style="border-top:3px solid #8BC53F;padding-top:20px"><h3 style="font-size:22px">Entidades territoriales</h3><p class="small">Alcaldías, gobernaciones y secretarías de educación. Financiación con recursos del Sistema General de Participaciones (Ley 715 de 2001, arts. 15, 16 y 21), regalías, recursos propios o Presupuesto General de la Nación.</p><p style="font-size:14px">Entregamos propuesta técnica, presupuesto por beneficiario, cronograma e indicadores de seguimiento.</p><a class="btn btn-green btn-sm" style="align-self:flex-start" href="#alianzas">Solicitar propuesta técnica</a></div>
+        <div class="stack" style="border-top:3px solid #59CBE8;padding-top:20px"><h3 style="font-size:22px">ONG y cooperación</h3><p class="small">Organizaciones sociales, fundaciones empresariales y cooperación internacional que buscan un operador con metodología validada y equipo en territorio.</p><p style="font-size:14px">Ejecutamos en alianza, articulados con las entidades del Estado y con reporte de resultados.</p><a class="btn btn-white btn-sm" style="align-self:flex-start" href="#alianzas">Proponer una alianza</a></div>
+        <div class="stack" style="border-top:3px solid #F1EB9C;padding-top:20px"><h3 style="font-size:22px">Donaciones</h3><p class="small">Personas y empresas, nacionales o extranjeras, que quieren financiar cupos de bachillerato, kits educativos o la formación de cuidadores en un municipio.</p><p style="font-size:14px">Cada donación recibe certificado y un informe de a quién llegó.</p><a class="btn btn-white btn-sm" style="align-self:flex-start" href="#alianzas">Quiero donar</a></div>
+      </div>
+      <p class="small">Toda solicitud se atiende por correo en <span class="email">formareducacion@yahoo.es <button class="copy" type="button" data-copy="formareducacion@yahoo.es">Copiar</button></span></p>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap col" style="gap:36px">
+      <div class="stack" style="max-width:720px"><h2>Proyectos en territorio</h2><p class="lead">Lo que hoy estamos construyendo con nuestros aliados en el país.</p></div>
+      <div class="grid g2" style="gap:28px">
+        <article class="stack" style="gap:16px"><img class="proj-img" src="img/proyecto-tolimensidad.jpg" alt="Feria de emprendimiento rural en la plaza de un municipio, con campesinos y estudiantes" loading="lazy"><h3 style="font-size:22px">Campaña Departamental de Tolimensidad</h3><p class="small" style="font-size:15px">"Soy tolimense, con orgullo": un movimiento de identidad colectiva, economía local y participación en los 47 municipios del departamento, con la Gobernación del Tolima.</p><span class="note">Aliado: Gobernación del Tolima · 47 municipios</span></article>
+        <article class="stack" style="gap:16px"><img class="proj-img" src="img/proyecto-liderazgo-comunal.jpg" alt="Jornada de formación comunitaria al aire libre con líderes de la comunidad" loading="lazy"><h3 style="font-size:22px">Modelo de Liderazgo Comunal para la transformación del Tolima</h3><p class="small" style="font-size:15px">Capacitación a presidentes de Juntas de Acción Comunal en Ibagué: cinco frentes de formación, ruta de campo y un Plan de Acción Comunitario por barrio.</p><span class="note">Aliado: Alcaldía de Ibagué · 2026</span></article>
+      </div>
+    </div>
+  </div>
+
+  <div class="band paper" id="galeria">
+    <div class="wrap col" style="gap:32px">
+      <div class="stack" style="max-width:720px"><h2>Así se vive el modelo</h2><p class="lead">Estudiantes, docentes y comunidades en las jornadas del programa: clases presenciales, formación docente, ferias de emprendimiento con artesanías y proyectos productivos, formación virtual y graduaciones.</p></div>
+      <div class="grid g3" style="gap:16px">
+        <figure class="gal"><img src="img/galeria-1-clase-presencial.jpg" alt="Estudiantes en clase presencial con su docente" loading="lazy"><figcaption>Clase presencial del Programa Jóvenes y Adultos.</figcaption></figure>
+        <figure class="gal"><img src="img/galeria-2-formacion-docente.jpg" alt="Docente del modelo orientando una sesión en el aula" loading="lazy"><figcaption>Formación docente en el Modelo Educativo Flexible.</figcaption></figure>
+        <figure class="gal"><img src="img/galeria-3-feria-emprendimiento.jpg" alt="Estudiantes en su stand de la Feria de Emprendimiento con artesanías" loading="lazy"><figcaption>Feria de Emprendimiento: artesanías y productos de los estudiantes.</figcaption></figure>
+        <figure class="gal"><img src="img/galeria-4-proyectos-productivos.jpg" alt="Estudiantes presentando miel, pan y semillas en una feria rural" loading="lazy"><figcaption>Proyectos productivos: Saberes de la Tierra, emprendimientos del campo.</figcaption></figure>
+        <figure class="gal"><img src="img/galeria-5-portal-educativo.jpg" alt="Estudiante trabajando en el portal educativo desde un computador portátil" loading="lazy"><figcaption>Formación virtual y complementaria en el portal educativo.</figcaption></figure>
+        <figure class="gal"><img src="img/galeria-6-graduacion.jpg" alt="Ceremonia de graduación de bachilleres del programa" loading="lazy"><figcaption>Ceremonia de graduación de bachilleres.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="band" style="background:var(--tint-yellow)">
+    <div class="wrap col" style="gap:36px">
+      <h2>Voces del territorio</h2>
+      <div class="grid g3" style="gap:32px">
+        <blockquote class="voz"><p class="quote">"Teníamos 4.000 adultos sin bachillerato en el municipio y ningún operador que llegara a las veredas. Con el modelo flexible abrimos tres sedes en un semestre."</p><footer class="small">Secretaria de Educación municipal, Tolima. Testimonio representativo.</footer></blockquote>
+        <blockquote class="voz"><p class="quote">"El Pasaporte de Bienestar nos dio por primera vez una ruta clara: qué hacer, con quién y cuándo remitir. Los docentes dejaron de sentirse solos."</p><footer class="small">Rectora de institución educativa oficial. Testimonio representativo.</footer></blockquote>
+        <blockquote class="voz"><p class="quote">"Me gradué de bachiller el mismo año que mi hija. Estudiaba los sábados y el resto de la semana veía los módulos en el celular."</p><footer class="small">Estudiante del Programa Jóvenes y Adultos, Ibagué. Testimonio representativo.</footer></blockquote>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-block:64px 24px">
+    <div style="background:var(--tint-blue);border-radius:28px;padding:40px clamp(20px,4vw,48px);display:flex;flex-wrap:wrap;gap:28px;align-items:center;justify-content:space-between">
+      <div class="stack" style="max-width:620px;min-width:0"><h2 style="font-size:30px">Portal educativo</h2><p class="small" style="font-size:16px">Estudiantes y docentes de los programas en marcha ingresan con el usuario asignado por su institución para su formación virtual y complementaria: módulos, recursos digitales, seguimiento y certificados.</p></div>
+      <div class="btns"><a class="btn btn-green" href="#portal">Soy estudiante</a><a class="btn btn-line" href="#portal">Soy docente</a></div>
+    </div>
+  </div>
+
+  <div class="wrap col" id="actualidad" style="padding-block:40px 88px;gap:28px">
+    <h2 style="font-size:30px">Actualidad</h2>
+    <div class="grid g3" style="gap:28px">
+      <article class="stack" style="gap:10px;border-top:1px solid var(--line);padding-top:18px"><span class="note">Octubre de 2026 · Tolima</span><h3 style="font-size:18px;line-height:1.3">Nueva cohorte del Programa Jóvenes y Adultos: 1.350 estudiantes inician su ciclo en 18 instituciones educativas</h3><p class="small">Estudiantes y docentes recibieron el kit escolar completo y sus credenciales del portal educativo en la primera semana de clases.</p></article>
+      <article class="stack" style="gap:10px;border-top:1px solid var(--line);padding-top:18px"><span class="note">Septiembre de 2026 · Ibagué</span><h3 style="font-size:18px;line-height:1.3">Presidentes de Juntas de Acción Comunal se certifican en Liderazgo Comunal y presentan sus Planes de Acción Comunitario</h3><p class="small">Cada junta construyó su plan en la ruta de campo del programa y lo entregó a la administración municipal.</p></article>
+      <article class="stack" style="gap:10px;border-top:1px solid var(--line);padding-top:18px"><span class="note">Agosto de 2026 · Tolima</span><h3 style="font-size:18px;line-height:1.3">Feria de Emprendimiento: 260 proyectos productivos y artesanías de estudiantes del bachillerato por ciclos</h3><p class="small">Las ferias cierran cada ciclo con la presentación de los proyectos a la comunidad, a los aliados y a las autoridades locales.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- PÁGINA DE PROGRAMA: JÓVENES Y ADULTOS -->
+<section id="p-modelo" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 500px">
+        <a href="#inicio" data-scroll="modelos" style="font-size:14px;font-weight:600">Modelos y proyectos</a>
+        <div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:64px;height:64px;border-radius:16px;background:#8BC53F"><svg width="38" height="38" fill="none" stroke="#1F2A10" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-bach"/></svg></div><span class="small" style="font-weight:600">Programa para entidades territoriales</span></div>
+        <h1 style="font-size:clamp(32px,4.2vw,50px)">Programa Jóvenes y Adultos: bachillerato por ciclos para su territorio</h1>
+        <p class="lead">Un modelo educativo flexible para que los jóvenes y adultos de su territorio terminen el bachillerato sin abandonar su trabajo ni su familia: trabajadores, población vulnerable y desplazada, personas privadas de la libertad, policías y soldados sin título, campesinos. Operación completa: focalización, docentes, material, portal educativo, seguimiento e informes para la entidad.</p>
+        <div class="btns"><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a><a class="btn btn-line" href="#alianzas">Pedir la presentación en PDF</a></div>
+      </div>
+      <div class="resumen" style="flex:1 1 340px">
+        <span class="k">Resumen para la entidad</span>
+        <div class="r"><span>Población objetivo</span><b>Mayores de 15 años sin bachillerato, incluida población vulnerable, privada de la libertad y Fuerza Pública</b></div>
+        <div class="r"><span>Marco legal</span><b>Decreto 1075 de 2015 · Circular 018 de 2025</b></div>
+        <div class="r"><span>Modalidad</span><b>Presencial en IE aliadas + portal educativo</b></div>
+        <div class="r"><span>Puesta en marcha</span><b>Inmediata tras la firma del convenio · ruta de ocho pasos</b></div>
+        <div class="r"><span>Financiación</span><b>SGP, regalías, recursos propios, PGN, cooperación</b></div>
+        <div class="r"><span>Entregables</span><b>Propuesta, cronograma, kits, informes e indicadores</b></div>
+        <div class="r"><span>Contacto</span><b>formareducacion@yahoo.es</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:16px"><h2>La magnitud del reto</h2><p class="lead">El 35 % de los colombianos mayores de 15 años no tiene bachillerato: 11,7 millones de personas sobre una población de 33,4 millones entre 15 y 65 años. En el Tolima son cerca de 200.000. Detrás de cada cifra hay una oportunidad de cambiar una historia y una meta de cobertura para la entidad.</p><p class="note">Fuente: DANE y Ministerio de Educación Nacional, 2023.</p></div>
+      <div class="grid g2" style="flex:1 1 400px">
+        <div class="rule-top rule-green stack" style="gap:4px"><span class="num" style="font-size:38px">35 %</span><span class="small">de los mayores de 15 años en Colombia sin bachillerato</span></div>
+        <div class="rule-top rule-blue stack" style="gap:4px"><span class="num" style="font-size:38px">200.000</span><span class="small">personas sin bachillerato en el Tolima</span></div>
+        <div class="rule-top rule-yellow stack" style="gap:4px"><span class="num" style="font-size:38px">30.000</span><span class="small">meta trazada por el programa para el departamento</span></div>
+        <div class="rule-top rule-teal stack" style="gap:4px"><span class="num" style="font-size:38px">600.000</span><span class="small">personas alcanzables con la metodología ya validada</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="band paper" id="poblacion">
+    <div class="wrap col" style="gap:32px">
+      <div class="stack" style="max-width:760px"><h2>¿A quién llega el programa?</h2><p class="lead">El bachillerato por ciclos no es solo para adultos trabajadores. El Decreto 1075 de 2015 permite atender a cualquier persona mayor de 15 años que no haya terminado el colegio, sin importar su condición. La entidad define la población prioritaria y Emprender 2025 adapta la operación: horarios, lugar de encuentro, material y acompañamiento.</p></div>
+      <div class="grid g4" style="gap:28px">
+        <div class="rule-top rule-green stack" style="gap:8px"><h3 style="font-size:18px">Jóvenes y adultos trabajadores</h3><p class="small">Encuentros presenciales cortos en jornada nocturna o de fin de semana y portal educativo para avanzar entre clases. Nadie deja su empleo para estudiar.</p></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><h3 style="font-size:18px">Población vulnerable, desplazada y víctima del conflicto</h3><p class="small">Focalización con las secretarías, los enlaces de víctimas y el Registro Único de Víctimas; grupos en el barrio o la vereda donde viven, kit escolar completo y módulo de desarrollo humano y proyecto de vida. Incluye a personas en proceso de reincorporación.</p></div>
+        <div class="rule-top rule-yellow stack" style="gap:8px"><h3 style="font-size:18px">Personas privadas de la libertad</h3><p class="small">Convenio con el establecimiento de reclusión y el INPEC: aulas dentro del centro, docentes con protocolo de ingreso y material impreso cuando no hay conectividad. La Ley 65 de 1993 reconoce redención de pena por estudio, y el título abre una puerta al salir.</p></div>
+        <div class="rule-top rule-teal stack" style="gap:8px"><h3 style="font-size:18px">Policías y soldados sin bachillerato</h3><p class="small">Grupos en la estación o la unidad militar con horarios compatibles con el servicio; el portal educativo permite continuar durante turnos y traslados. Convenio con la Policía Nacional, el Ejército o la secretaría de educación.</p></div>
+        <div class="rule-top rule-green stack" style="gap:8px"><h3 style="font-size:18px">Madres cabeza de familia y cuidadoras</h3><p class="small">Horarios flexibles, sedes cercanas a la vivienda y articulación con los programas de primera infancia del municipio para el cuidado de los hijos durante las clases.</p></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><h3 style="font-size:18px">Población rural y campesina</h3><p class="small">Sedes en instituciones educativas rurales y veredas, material físico completo y recursos descargables para zonas sin conectividad. Los proyectos de emprendimiento se formulan sobre la economía local.</p></div>
+        <div class="rule-top rule-yellow stack" style="gap:8px"><h3 style="font-size:18px">Adultos mayores y personas con discapacidad</h3><p class="small">Grupos con ritmo propio, ajustes razonables en el material y docentes formados en educación inclusiva, en articulación con los programas de adulto mayor y discapacidad de la entidad.</p></div>
+        <div class="rule-top rule-teal stack" style="gap:8px"><h3 style="font-size:18px">Migrantes y comunidades étnicas</h3><p class="small">Acompañamiento en la validación de estudios previos, enfoque intercultural y trabajo articulado con cabildos indígenas, consejos comunitarios y organizaciones de población migrante.</p></div>
+      </div>
+      <div class="split" style="gap:32px">
+        <p class="small" style="flex:1 1 300px"><strong style="color:var(--fg)">Un solo título, válido para todos.</strong> En cualquiera de los casos la certificación la expide la institución educativa oficial aliada; Emprender 2025 opera el modelo, forma a los docentes y entrega el material.</p>
+        <p class="small" style="flex:1 1 300px"><strong style="color:var(--fg)">Focalización con registros oficiales.</strong> SIMAT, Sisbén, Registro Único de Víctimas y los listados del establecimiento de reclusión o de la unidad, según la población que la entidad priorice.</p>
+      </div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px">
+      <h2>Estructura del modelo</h2>
+      <p class="lead">Ciclos Lectivos Especiales Integrados (CLEI): cada ciclo equivale a dos grados de la educación regular, con módulos de saberes básicos, emprendimiento, desarrollo humano y educación física.</p>
+      <div class="tablebox"><table>
+        <thead><tr><th>Ciclo</th><th>Equivale a</th><th>Módulos</th><th>Material entregado</th></tr></thead>
+        <tbody>
+          <tr><td>CLEI II</td><td>Grados 4.º y 5.º</td><td>Lecturas · Pedagógico I · Pedagógico II · Emprendimiento y desarrollo humano · Educación física</td><td rowspan="5">Cada estudiante y docente recibe cuadernos, lapicero, lápiz, borrador, regla, camiseta y morral institucional, además de acceso al portal educativo con RED y OVA.</td></tr>
+          <tr><td>CLEI III</td><td>Grados 6.º y 7.º</td><td>Lecturas · Pedagógico I · Pedagógico II · Emprendimiento y desarrollo humano · Educación física</td></tr>
+          <tr><td>CLEI IV</td><td>Grados 8.º y 9.º</td><td>Lecturas · Pedagógico I · Pedagógico II · Emprendimiento y desarrollo humano · Educación física</td></tr>
+          <tr><td>CLEI V</td><td>Grado 10.º</td><td>Lecturas · Pedagógico I · Emprendimiento y desarrollo humano · Educación física</td></tr>
+          <tr><td>CLEI VI</td><td>Grado 11.º</td><td>Lecturas · Pedagógico I · Emprendimiento y desarrollo humano · Educación física</td></tr>
+        </tbody></table></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap col" style="gap:32px">
+      <h2>Qué recibe cada actor</h2>
+      <div class="grid g4" style="gap:28px">
+        <div class="rule-top stack" style="gap:10px"><h3 style="font-size:18px">La entidad</h3><p class="small">Propuesta técnica y presupuestal, plan de focalización, cronograma, informes mensuales e indicadores de cobertura, permanencia y graduación.</p></div>
+        <div class="rule-top rule-green stack" style="gap:10px"><h3 style="font-size:18px">La institución educativa</h3><p class="small">Articulación del modelo al PEI, docentes capacitados, guía docente, material y acompañamiento de coordinadores académicos.</p></div>
+        <div class="rule-top rule-blue stack" style="gap:10px"><h3 style="font-size:18px">El estudiante</h3><p class="small">Kit escolar completo, encuentros presenciales cortos, portal educativo para avanzar a su ritmo, Feria de Emprendimiento y certificación del ciclo.</p></div>
+        <div class="rule-top rule-yellow stack" style="gap:10px"><h3 style="font-size:18px">El docente</h3><p class="small">Formación en el modelo, material, panel docente en el portal para seguimiento de grupos y formación complementaria certificada.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="band ink">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:18px"><h2>Cómo se financia</h2>
+        <ul style="padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:15px;color:var(--band-muted)">
+          <li><strong style="color:var(--band-fg)">Sistema General de Participaciones</strong>: Ley 715 de 2001, artículos 15, 16 y 21.</li>
+          <li><strong style="color:var(--band-fg)">Alcaldías y gobernaciones</strong>: recursos propios y rentas cedidas.</li>
+          <li><strong style="color:var(--band-fg)">Sistema General de Regalías</strong>: previa aprobación del proyecto de inversión.</li>
+          <li><strong style="color:var(--band-fg)">Presupuesto General de la Nación</strong>: recursos nacionales directos.</li>
+          <li><strong style="color:var(--band-fg)">Cooperación internacional y donaciones</strong>: personas naturales o jurídicas, nacionales o extranjeras.</li>
+        </ul></div>
+      <div class="col" style="flex:1 1 380px;gap:18px"><h2>Indicadores que reportamos</h2>
+        <div class="grid g2" style="gap:20px">
+          <div class="stack" style="gap:6px;border-top:2px solid #8BC53F;padding-top:14px"><strong style="font-size:17px">Cobertura</strong><span class="small">Estudiantes focalizados y matriculados por institución y ciclo</span></div>
+          <div class="stack" style="gap:6px;border-top:2px solid #8BC53F;padding-top:14px"><strong style="font-size:17px">Permanencia</strong><span class="small">Asistencia mensual y deserción, con alertas tempranas</span></div>
+          <div class="stack" style="gap:6px;border-top:2px solid #8BC53F;padding-top:14px"><strong style="font-size:17px">Graduación</strong><span class="small">Estudiantes que aprueban el ciclo y bachilleres certificados</span></div>
+          <div class="stack" style="gap:6px;border-top:2px solid #8BC53F;padding-top:14px"><strong style="font-size:17px">Emprendimiento</strong><span class="small">Proyectos formulados y presentados en la Feria</span></div>
+        </div></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div style="flex:1 1 300px"><h2>Preguntas frecuentes de las entidades</h2></div>
+      <div style="flex:2 1 520px">
+        <details open><summary>¿El título que obtienen los estudiantes es válido?</summary><p>Sí. El modelo opera bajo el Decreto 1075 de 2015 en articulación con instituciones educativas oficiales, que expiden la certificación de cada ciclo y el título de bachiller.</p></details>
+        <details><summary>¿Cuánto tarda la puesta en marcha?</summary><p>Es inmediata. Firmado el convenio, Emprender 2025 activa el equipo en territorio y sigue la ruta de ocho pasos: selección de instituciones, focalización, articulación al PEI, capacitación docente, entrega de ayudas, seguimiento, feria y cierre. La metodología, la guía docente y el material ya existen: no hay etapa de diseño.</p></details>
+        <details><summary>¿Quién contrata a los docentes?</summary><p>Emprender 2025 conforma y contrata el equipo en territorio (docentes, supervisores, coordinadores académicos y logística), priorizando talento local.</p></details>
+        <details><summary>¿Cómo se calcula el presupuesto?</summary><p>Por beneficiario, según el número de estudiantes focalizados, ciclos y municipios. La propuesta técnica incluye el desglose por concepto: capacitación, material, logística y seguimiento.</p></details>
+        <details><summary>¿Cómo solicitamos la propuesta?</summary><p>Escriba a formareducacion@yahoo.es con el nombre de la entidad, el municipio o departamento, la población estimada y la fuente de financiación prevista. Respondemos con la propuesta técnica.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-block:0 80px">
+    <div style="background:var(--tint-green);border-radius:24px;padding:40px clamp(20px,4vw,44px);display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between"><h2 style="font-size:28px;max-width:640px">Llevemos el bachillerato a quienes todavía no lo tienen en su territorio.</h2><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a></div>
+  </div>
+</section>
+
+<!-- TRABAJEMOS JUNTOS -->
+<section id="p-alianzas" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap col" style="max-width:800px;gap:18px"><h1>Trabajemos juntos</h1><p class="lead">Nuestros programas no se venden al público: llegan a las personas a través de entidades territoriales, organizaciones sociales y donantes que los contratan o financian. Elija su camino y cuéntenos su territorio; respondemos por correo con una propuesta concreta.</p></div>
+  </div>
+  <div class="wrap" style="padding-block:56px">
+    <div class="grid g3">
+      <div class="path"><h3 style="font-size:22px">Entidades territoriales</h3><p>Alcaldías, gobernaciones, secretarías de educación, salud o desarrollo social que necesitan un operador con metodología validada y equipo en campo.</p><ul><li>Propuesta técnica y presupuesto por beneficiario</li><li>Fuentes: SGP (Ley 715 de 2001), regalías, recursos propios, PGN</li><li>Puesta en marcha inmediata tras la firma, informes mensuales e indicadores</li><li>Articulación con el plan de desarrollo y el PEI de cada institución</li></ul><a class="btn btn-green btn-sm" style="align-self:flex-start" href="#alianzas" data-scroll="solicitud" data-tipo="Entidad territorial">Solicitar propuesta técnica</a></div>
+      <div class="path" style="border-top-color:#59CBE8"><h3 style="font-size:22px">ONG, fundaciones y cooperación</h3><p>Organizaciones que ejecutan proyectos de educación, familia, adulto mayor o ambiente y buscan un aliado operador en el Tolima y en Colombia.</p><ul><li>Ejecución conjunta o subcontratación de la operación</li><li>Articulación con entidades del Estado e ICBF</li><li>Sistematización y reporte de resultados para el financiador</li><li>Veinte años de experiencia y 92 municipios</li></ul><a class="btn btn-ink btn-sm" style="align-self:flex-start" href="#alianzas" data-scroll="solicitud" data-tipo="ONG, fundación o cooperante">Proponer una alianza</a></div>
+      <div class="path" style="border-top-color:#F1EB9C"><h3 style="font-size:22px">Donantes</h3><p>Personas y empresas, nacionales o extranjeras, que quieren financiar educación concreta: cupos de bachillerato, kits educativos o la formación de cuidadores en un municipio.</p><ul><li>Certificado de donación e informe de destino</li><li>Donación dirigida a un programa o municipio</li><li>Beneficios tributarios</li><li>Reconocimiento como aliado en los eventos del programa</li></ul><a class="btn btn-ink btn-sm" style="align-self:flex-start" href="#alianzas" data-scroll="solicitud" data-tipo="Empresa donante">Quiero donar</a></div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px"><h2>Qué pasa después de escribirnos</h2>
+      <ol class="steps">
+        <li><span class="stepn">1</span><h3>Respuesta en 2 días hábiles</h3><p>Confirmamos recibido y agendamos una reunión virtual o en su despacho.</p></li>
+        <li><span class="stepn">2</span><h3>Diagnóstico del territorio</h3><p>Población objetivo, instituciones disponibles y fuente de financiación.</p></li>
+        <li><span class="stepn">3</span><h3>Propuesta técnica</h3><p>Alcance, cronograma, presupuesto por beneficiario e indicadores.</p></li>
+        <li><span class="stepn">4</span><h3>Convenio y puesta en marcha</h3><p>Inmediata: firmado el convenio, el equipo entra al territorio y arranca el cronograma.</p></li>
+      </ol></div>
+  </div>
+  <div class="band" id="solicitud">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 340px;gap:18px"><h2>Cuéntenos su territorio</h2><p class="lead">Con estos datos preparamos una propuesta a la medida. Si prefiere, escríbanos directamente:</p><p class="email">formareducacion@yahoo.es <button class="copy" type="button" data-copy="formareducacion@yahoo.es">Copiar</button></p><div class="stack" style="gap:6px;border-left:3px solid var(--green);padding-left:16px" ><span class="small">Emprender 2025 · Modelo Educativo Flexible</span><span class="small">Operamos en todos los departamentos de Colombia</span><span class="small">Lunes a viernes, 8:00 a. m. a 5:00 p. m.</span></div></div>
+      <form id="f-sol" class="grid g2" style="flex:1 1 460px;gap:16px;background:var(--bg2);border-radius:20px;padding:28px" novalidate>
+        <label class="field">Soy<select id="sol-tipo"><option>Entidad territorial</option><option>Institución educativa</option><option>ONG, fundación o cooperante</option><option>Empresa donante</option><option>Persona donante</option></select></label>
+        <label class="field">Entidad u organización<input id="sol-ent" type="text" placeholder="Alcaldía de…"></label>
+        <label class="field">Nombre y cargo<input id="sol-nom" type="text" placeholder="Secretaria de Educación"></label>
+        <label class="field">Correo institucional<input id="sol-mail" type="email" placeholder="nombre@entidad.gov.co"></label>
+        <label class="field">Municipio o departamento<input id="sol-mun" type="text" placeholder="Ibagué, Tolima"></label>
+        <label class="field">Programa de interés<select id="sol-prog"><option>Programa Jóvenes y Adultos (bachillerato)</option><option>Diplomado Adulto Mayor</option><option>Salud Mental Escolar</option><option>Educación Ambiental y Emprendimiento Verde</option><option>El Poder de la Familia</option><option>Liderazgo Comunal JAC</option><option>Aún no lo sé</option></select></label>
+        <label class="field" style="grid-column:1/-1">Población estimada y fuente de financiación prevista<textarea id="sol-txt" placeholder="Ej.: 1.200 adultos sin bachillerato en zona rural; recursos SGP 2027"></textarea></label>
+        <label class="check" style="grid-column:1/-1"><input id="sol-ok" type="checkbox">Autorizo el tratamiento de mis datos según la Ley 1581 de 2012 y la política de tratamiento de datos de Emprender 2025.</label>
+        <div style="grid-column:1/-1;display:flex;flex-direction:column;gap:12px"><button class="btn btn-green" type="submit" style="align-self:flex-start">Enviar solicitud</button><p class="note">La solicitud llega a formareducacion@yahoo.es. Respondemos en máximo dos días hábiles.</p><p class="note" id="sol-err" hidden></p><div class="ok" id="sol-done" hidden>Recibimos su solicitud. En dos días hábiles le escribiremos desde formareducacion@yahoo.es para agendar la reunión. (Prototipo: el envío real se conecta al publicar el sitio.)</div></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- DIPLOMADO ADULTO MAYOR -->
+<section id="p-adulto-mayor" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 500px">
+        <a href="#inicio" data-scroll="modelos" style="font-size:14px;font-weight:600">Modelos y proyectos</a>
+        <div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:64px;height:64px;border-radius:16px;background:#7AD1C1"><svg width="38" height="38" fill="none" stroke="#0E3A48" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-mayor"/></svg></div><span class="small" style="font-weight:600">Programa para gobernaciones, alcaldías, programas de adulto mayor y ONG</span></div>
+        <h1 style="font-size:clamp(32px,4.2vw,50px)">Diplomado en Atención Integral del Adulto Mayor: cuidadores formados para su territorio</h1>
+        <p class="lead">Cuidar con conocimiento, acompañar con dignidad. Una formación corta para cuidadores familiares y comunitarios, con créditos académicos, módulo transversal de salud básica y salida laboral inmediata. Operación completa: convocatoria, docentes, campus virtual, kit institucional, certificación e informes para la entidad.</p>
+        <div class="btns"><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a><a class="btn btn-line" href="#alianzas">Pedir la presentación en PDF</a></div>
+      </div>
+      <div class="resumen" style="flex:1 1 340px">
+        <span class="k">Resumen para la entidad</span>
+        <div class="r"><span>Población objetivo</span><b>Cuidadores familiares y comunitarios de personas mayores</b></div>
+        <div class="r"><span>Marco legal</span><b>Política de Envejecimiento Humano y Vejez · Ley 1151 de 2007 · Ley 1251 de 2008</b></div>
+        <div class="r"><span>Modalidad</span><b>Campus virtual + clases presenciales de apoyo</b></div>
+        <div class="r"><span>Estructura</span><b>Cinco periodos y un módulo transversal de salud</b></div>
+        <div class="r"><span>Puesta en marcha</span><b>Inmediata tras la firma del convenio</b></div>
+        <div class="r"><span>Entregables</span><b>Kit institucional, certificado con créditos, informes e indicadores</b></div>
+        <div class="r"><span>Contacto</span><b>formareducacion@yahoo.es</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:16px"><h2>Colombia envejece</h2><p class="lead">6,8 millones de colombianos tienen más de 59 años, el 13 % de la población, y el grupo crece al 3,5 % anual, el doble que el resto del país. En 1985 eran 2,1 millones. Cada uno de ellos merece un cuidado digno y cada familia merece saber que quien cuida sabe lo que hace. La demanda de cuidadores formados está en todo el país.</p><p class="note">Fuente: DANE. Población mayor de 59 años, 2023; distribución departamental, 2018.</p></div>
+      <div class="grid g2" style="flex:1 1 400px">
+        <div class="rule-top rule-teal stack" style="gap:4px"><span class="num" style="font-size:38px">6,8 M</span><span class="small">personas mayores de 59 años en Colombia</span></div>
+        <div class="rule-top rule-green stack" style="gap:4px"><span class="num" style="font-size:38px">3,5 %</span><span class="small">crecimiento anual del grupo, el doble que la población total</span></div>
+        <div class="rule-top rule-blue stack" style="gap:4px"><span class="num" style="font-size:38px">23</span><span class="small">personas mayores por cada 100 en edad activa</span></div>
+        <div class="rule-top rule-yellow stack" style="gap:4px"><span class="num" style="font-size:38px">77,2</span><span class="small">años de esperanza de vida</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px">
+      <h2>Ruta formativa</h2>
+      <p class="lead">Cinco periodos, un módulo transversal presente en todos ellos y una guía para el docente.</p>
+      <div class="tablebox"><table>
+        <thead><tr><th>Periodo</th><th>Nombre</th><th>Qué aprende el cuidador</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Normatividad e inclusión social</td><td>Derechos de las personas mayores, política pública y rutas de atención</td></tr>
+          <tr><td>2</td><td>Diálogo de saberes</td><td>Escucha, comunicación y respeto por la historia de vida de cada persona</td></tr>
+          <tr><td>3</td><td>Ciclo vital y proyecto de vida</td><td>Envejecimiento activo, autonomía y acompañamiento emocional</td></tr>
+          <tr><td>4</td><td>Consolidación de legados</td><td>Memoria, familia y sentido en la vejez</td></tr>
+          <tr><td>5</td><td>Emprendimiento del legado</td><td>Cómo convertir el cuidado en una fuente de ingresos digna</td></tr>
+          <tr><td>Transversal</td><td>Atención de salud básica al adulto mayor</td><td>Signos vitales, movilidad, medicamentos, alimentación y primeros auxilios</td></tr>
+        </tbody></table></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap col" style="gap:32px">
+      <h2>Por qué un diplomado</h2>
+      <div class="grid g3" style="gap:28px">
+        <div class="rule-top rule-teal stack" style="gap:10px"><h3 style="font-size:18px">Corto y con retorno rápido</h3><p class="small">Pensado para quien necesita empezar ya: se termina en meses y permite generar ingresos mientras se estudia. Colombia es el segundo país de América Latina con mayor deserción universitaria; el 42 % de quienes ingresan abandona en los primeros años.</p></div>
+        <div class="rule-top rule-green stack" style="gap:10px"><h3 style="font-size:18px">Créditos académicos</h3><p class="small">Puente hacia estudios técnicos, tecnológicos, universitarios y de posgrado, según los convenios vigentes con instituciones de educación superior.</p></div>
+        <div class="rule-top rule-blue stack" style="gap:10px"><h3 style="font-size:18px">Qué incluye</h3><p class="small">Kit institucional (gorra, camiseta tipo polo, morral y memoria USB), campus virtual con libros en línea y seguimiento, clases presenciales de apoyo, guía docente y certificado.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap split">
+      <div style="flex:1 1 300px"><h2>Preguntas frecuentes de las entidades</h2></div>
+      <div style="flex:2 1 520px">
+        <details open><summary>¿Quién puede formarse como cuidador?</summary><p>Cuidadores familiares y comunitarios, auxiliares de hogares geriátricos y centros día, y personas que buscan empleo en el cuidado. Los requisitos de ingreso se definen en el convenio.</p></details>
+        <details><summary>¿Dónde trabajan los egresados?</summary><p>Hogares geriátricos, centros día, atención domiciliaria, EPS e IPS, fundaciones y programas municipales y departamentales de adulto mayor.</p></details>
+        <details><summary>¿Los créditos son homologables?</summary><p>Sí, según los convenios con instituciones de educación superior; la propuesta indica cuáles aplican en su territorio.</p></details>
+        <details><summary>¿Cómo se implementa?</summary><p>Con el convenio firmado la puesta en marcha es inmediata: convocatoria y focalización con la entidad, docentes, campus virtual, kits, clases de apoyo, seguimiento y certificación.</p></details>
+        <details><summary>¿Cómo solicitamos la propuesta?</summary><p>Escriba a formareducacion@yahoo.es con el nombre de la entidad, el municipio o departamento, la población estimada y la fuente de financiación prevista.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-block:0 80px">
+    <div style="background:var(--tint-teal);border-radius:24px;padding:40px clamp(20px,4vw,44px);display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between"><h2 style="font-size:28px;max-width:640px">Formemos a los cuidadores de su territorio.</h2><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a></div>
+  </div>
+</section>
+
+<!-- SALUD MENTAL -->
+<section id="p-salud-mental" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 500px">
+        <a href="#inicio" data-scroll="modelos" style="font-size:14px;font-weight:600">Modelos y proyectos</a>
+        <div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:64px;height:64px;border-radius:16px;background:#59CBE8"><svg width="38" height="38" fill="none" stroke="#0E3A48" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-salud"/></svg></div><span class="small" style="font-weight:600">Programa para secretarías de educación, gobernaciones e instituciones educativas</span></div>
+        <h1 style="font-size:clamp(32px,4.2vw,50px)">Modelo de Salud Mental en la Educación Regular: bienestar escolar para su territorio</h1>
+        <p class="lead">Mente sana, escuela fuerte, familia presente. Un Sistema Integral de Bienestar Escolar de doce módulos para estudiantes, familias, docentes y orientadores, alineado con la Ley 2460 de 2025 y los referentes curriculares del Ministerio de Educación 2026. No es una asignatura más: es una ruta para promover, prevenir, detectar a tiempo y remitir.</p>
+        <div class="btns"><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a><a class="btn btn-line" href="#alianzas">Pedir la presentación en PDF</a></div>
+      </div>
+      <div class="resumen" style="flex:1 1 340px">
+        <span class="k">Resumen para la entidad</span>
+        <div class="r"><span>Población objetivo</span><b>Estudiantes de preescolar a media, familias, docentes, orientadores y directivos</b></div>
+        <div class="r"><span>Marco legal</span><b>Ley 2460 de 2025 · Referentes curriculares MEN 2026</b></div>
+        <div class="r"><span>Modalidad</span><b>Formación presencial y virtual, talleres con familias</b></div>
+        <div class="r"><span>Estructura</span><b>12 módulos en tres bloques · cuatro niveles de atención</b></div>
+        <div class="r"><span>Puesta en marcha</span><b>Inmediata tras la firma del convenio</b></div>
+        <div class="r"><span>Entregables</span><b>Material pedagógico, Pasaporte de Bienestar, informes e indicadores</b></div>
+        <div class="r"><span>Contacto</span><b>formareducacion@yahoo.es</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:16px"><h2>Ningún estudiante debería enfrentar solo lo que puede cambiar su vida</h2><p class="lead">Colombia tiene 9,3 millones de estudiantes en educación formal. El bullying, las conductas de riesgo, la dependencia digital y las crisis familiares llegan al aula todos los días, y la mayoría de instituciones no cuenta con una ruta clara. La Ley 2460 de 2025 exige articular educación y salud; el reto es cómo hacerlo en cada colegio.</p><p class="note">Fuente: Censo de Educación Formal, DANE 2024.</p></div>
+      <div class="grid g2" style="flex:1 1 400px">
+        <div class="rule-top rule-blue stack" style="gap:4px"><span class="num" style="font-size:38px">9,3 M</span><span class="small">estudiantes de educación formal en el país</span></div>
+        <div class="rule-top rule-green stack" style="gap:4px"><span class="num" style="font-size:38px">7,5 M</span><span class="small">en el sector oficial</span></div>
+        <div class="rule-top rule-yellow stack" style="gap:4px"><span class="num" style="font-size:38px">2,2 M</span><span class="small">en zona rural</span></div>
+        <div class="rule-top rule-teal stack" style="gap:4px"><span class="num" style="font-size:38px">932.867</span><span class="small">estudiantes en la primera meta nacional de cobertura (10 %), escalable al 100 %</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px">
+      <h2>Una metodología diferente: cuatro niveles, cinco poblaciones, un pasaporte</h2>
+      <div class="grid g4" style="gap:24px">
+        <div class="rule-top stack" style="gap:8px"><h3 style="font-size:17px">Nivel 1 · Promoción</h3><p class="small">Dirigido a todos los estudiantes.</p></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><h3 style="font-size:17px">Nivel 2 · Prevención</h3><p class="small">Estudiantes con factores de riesgo.</p></div>
+        <div class="rule-top rule-yellow stack" style="gap:8px"><h3 style="font-size:17px">Nivel 3 · Detección temprana</h3><p class="small">Identificación de señales de alerta, respetando la confidencialidad clínica.</p></div>
+        <div class="rule-top rule-green stack" style="gap:8px"><h3 style="font-size:17px">Nivel 4 · Atención y remisión</h3><p class="small">Orientación escolar, familia, salud y rutas institucionales.</p></div>
+      </div>
+      <p class="small" style="max-width:76ch">El programa no se dirige solo al estudiante: trabaja con cinco poblaciones (estudiantes, familias, docentes, orientadores y directivos, e instituciones educativas). Cada estudiante cuenta con un <strong style="color:var(--fg)">Pasaporte de Bienestar</strong>, un registro pedagógico propio (no una historia clínica) con habilidades socioemocionales, factores protectores, red de apoyo y proyecto de vida. Los casos que requieren atención clínica se remiten por las rutas institucionales.</p>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap col" style="gap:28px">
+      <h2>Los doce módulos</h2>
+      <div class="tablebox"><table>
+        <thead><tr><th>Bloque</th><th>Módulos</th><th>Producto</th></tr></thead>
+        <tbody>
+          <tr><td>Conociéndome</td><td>1 Conozco mi mente · 2 Inteligencia emocional · 3 Autoestima y proyecto de vida · 4 Habilidades para la vida</td><td>Mapa emocional y diario de emociones</td></tr>
+          <tr><td>Prevención y relaciones sanas</td><td>5 Prevención del bullying y ciberbullying · 6 Prevención de conductas de riesgo · 7 Prevención del suicidio y cuidado de la vida · 8 Relaciones sanas</td><td>Red personal de apoyo</td></tr>
+          <tr><td>Familia, entorno digital y futuro</td><td>9 Familia y salud mental · 10 Salud mental digital · 11 Resiliencia y manejo de crisis · 12 Mi proyecto de vida y bienestar</td><td>Acuerdo familiar de bienestar y "Mi Proyecto de Vida 2035"</td></tr>
+        </tbody></table></div>
+    </div>
+  </div>
+  <div class="band ink">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:18px"><h2>Estructura institucional</h2><p class="lead">De lo nacional al aula, articulado con la red externa.</p><ol class="steps" style="grid-template-columns:1fr;gap:14px"><li><span class="stepn" style="background:var(--band-fg);color:var(--band)">1</span><h3>Dirección nacional del modelo</h3></li><li><span class="stepn" style="background:var(--band-fg);color:var(--band)">2</span><h3>Coordinación departamental y municipal</h3></li><li><span class="stepn" style="background:var(--band-fg);color:var(--band)">3</span><h3>Institución educativa: rector, orientador, docentes, comité de convivencia y familias</h3></li></ol><p class="small">Red externa: salud, EPS e IPS, ICBF, comisarías de familia, Policía de Infancia, universidades y organizaciones sociales.</p></div>
+      <div class="col" style="flex:1 1 380px;gap:18px"><h2>Indicadores de impacto</h2>
+        <div class="grid g3" style="gap:20px">
+          <div class="stack" style="gap:6px;border-top:2px solid #59CBE8;padding-top:14px"><strong style="font-size:17px">Cobertura</strong><span class="small">Estudiantes atendidos, instituciones vinculadas, docentes capacitados, familias participantes</span></div>
+          <div class="stack" style="gap:6px;border-top:2px solid #59CBE8;padding-top:14px"><strong style="font-size:17px">Prevención</strong><span class="small">Habilidades fortalecidas, casos identificados a tiempo, casos remitidos, familias vinculadas</span></div>
+          <div class="stack" style="gap:6px;border-top:2px solid #59CBE8;padding-top:14px"><strong style="font-size:17px">Escolares</strong><span class="small">Convivencia escolar, reducción del acoso, ausentismo y deserción, participación estudiantil</span></div>
+        </div></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div style="flex:1 1 300px"><h2>Preguntas frecuentes de las entidades</h2></div>
+      <div style="flex:2 1 520px">
+        <details open><summary>¿Reemplaza al orientador escolar?</summary><p>No. Lo fortalece con una ruta, herramientas y una red de apoyo.</p></details>
+        <details><summary>¿Cómo se maneja la confidencialidad?</summary><p>El Pasaporte es pedagógico; los casos que requieren atención clínica se remiten por las rutas institucionales, según la Ley 2460 de 2025.</p></details>
+        <details><summary>¿Se puede implementar en una sola institución?</summary><p>Sí, y también a escala municipal o departamental con una coordinación por nivel.</p></details>
+        <details><summary>¿Cómo se financia?</summary><p>Recursos propios, SGP, regalías o cooperación; preparamos la propuesta con ustedes.</p></details>
+        <details><summary>¿Cómo se mide el impacto?</summary><p>Estudiantes atendidos, casos identificados a tiempo, familias vinculadas, reducción del acoso escolar y de la deserción, con medición anual.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-block:0 80px">
+    <div style="background:var(--tint-blue);border-radius:24px;padding:40px clamp(20px,4vw,44px);display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between"><h2 style="font-size:28px;max-width:640px">Primera meta: 932.867 estudiantes. Empecemos por su territorio.</h2><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a></div>
+  </div>
+</section>
+
+<!-- EDUCACIÓN AMBIENTAL -->
+<section id="p-ambiental" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 500px">
+        <a href="#inicio" data-scroll="modelos" style="font-size:14px;font-weight:600">Modelos y proyectos</a>
+        <div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:64px;height:64px;border-radius:16px;background:#2B2522"><svg width="38" height="38" fill="none" stroke="#8BC53F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-amb"/></svg></div><span class="small" style="font-weight:600">Programa para alcaldías, gobernaciones, corporaciones autónomas e instituciones educativas</span></div>
+        <h1 style="font-size:clamp(32px,4.2vw,50px)">Educación Ambiental y Emprendimiento Verde: del PRAE a los negocios sostenibles</h1>
+        <p class="lead">Sembrar conciencia, cosechar futuro. Cinco módulos que fortalecen el Proyecto Ambiental Escolar y terminan en proyectos ambientales y modelos de negocio sostenibles, desde preescolar hasta media. Veinte años formando conciencia ambiental, 92 municipios y alianzas con Gobernaciones, Alcaldías e ICBF.</p>
+        <div class="btns"><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a><a class="btn btn-line" href="#alianzas">Pedir la presentación en PDF</a></div>
+      </div>
+      <div class="resumen" style="flex:1 1 340px">
+        <span class="k">Resumen para la entidad</span>
+        <div class="r"><span>Población objetivo</span><b>Instituciones educativas oficiales; estudiantes y docentes de preescolar a media</b></div>
+        <div class="r"><span>Marco</span><b>ODS 1, 4, 13 y 17 · Agenda 2030 · Minambiente · acuerdos COP26</b></div>
+        <div class="r"><span>Modalidad</span><b>Plataforma digital + acompañamiento en la institución</b></div>
+        <div class="r"><span>Estructura</span><b>Cinco módulos, tres saberes, siete pasos</b></div>
+        <div class="r"><span>Puesta en marcha</span><b>Inmediata tras la firma del convenio</b></div>
+        <div class="r"><span>Entregables</span><b>Plataforma, capacitación docente, proyectos por periodo, informes</b></div>
+        <div class="r"><span>Contacto</span><b>formareducacion@yahoo.es</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:16px"><h2>El PRAE existe en el papel; la conciencia se forma en la práctica</h2><p class="lead">Todas las instituciones deben tener un Proyecto Ambiental Escolar, pero pocas logran que los estudiantes lean su entorno, propongan soluciones y las ejecuten. Formar en ambiente sin formar en emprendimiento deja la mitad del trabajo sin hacer.</p><p class="note">Fuente: DANE, 2023. Alcance de la población estudiantil y docente en Colombia.</p></div>
+      <div class="tablebox" style="flex:1 1 400px"><table>
+        <thead><tr><th>Nivel educativo</th><th>Estudiantes</th><th>Docentes</th></tr></thead>
+        <tbody><tr><td>Preescolar</td><td>928.947</td><td>51.962</td></tr><tr><td>Básica primaria</td><td>4.134.593</td><td>179.630</td></tr><tr><td>Básica secundaria</td><td>3.179.426</td><td>143.955</td></tr><tr><td>Media</td><td>1.103.818</td><td>60.116</td></tr><tr><td>Total · 32 departamentos</td><td>9.346.784</td><td>435.663</td></tr></tbody></table></div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px">
+      <h2>Cinco módulos, un solo compromiso</h2>
+      <div class="tablebox"><table>
+        <thead><tr><th>Módulo</th><th>Contenido</th></tr></thead>
+        <tbody>
+          <tr><td>1 Medio ambiente</td><td>Conceptos de ambiente y desarrollo sostenible; marco del proyecto ambiental PRAE</td></tr>
+          <tr><td>2 Normatividad ambiental</td><td>Compromisos del Estado, normas, permisos, concesiones y autoridades ambientales</td></tr>
+          <tr><td>3 Sistema de gestión ambiental</td><td>Conceptos clave para preparar y desarrollar proyectos ambientales</td></tr>
+          <tr><td>4 Proyectos ambientales</td><td>Estrategias para identificar problemas del entorno y proponer soluciones educativas</td></tr>
+          <tr><td>5 Emprendimiento verde</td><td>Generación de ideas y modelos de negocio innovadores y sostenibles</td></tr>
+        </tbody></table></div>
+      <div class="grid g3" style="gap:24px">
+        <div class="rule-top rule-blue stack" style="gap:8px"><h3 style="font-size:17px">Saber-saber</h3><p class="small">Competencias ambientales, gestión ambiental y proyectos educativos ambientales.</p></div>
+        <div class="rule-top rule-yellow stack" style="gap:8px"><h3 style="font-size:17px">Saber-ser</h3><p class="small">Proyecto de vida personal, social y ambiental; competencias ciudadanas.</p></div>
+        <div class="rule-top rule-green stack" style="gap:8px"><h3 style="font-size:17px">Saber-hacer</h3><p class="small">Elaboración de proyectos, generación de ideas e identificación de problemáticas ambientales.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap col" style="gap:28px">
+      <h2>Cómo lo hacemos: del primer contacto a la graduación</h2>
+      <ol class="steps">
+        <li><span class="stepn">1</span><h3>Ubicar la institución</h3><p>Y solicitar información.</p></li>
+        <li><span class="stepn">2</span><h3>Formalizar el registro</h3><p>En la plataforma.</p></li>
+        <li><span class="stepn">3</span><h3>Introducción a la plataforma digital</h3><p>Docentes y estudiantes.</p></li>
+        <li><span class="stepn">4</span><h3>Acceder a los módulos</h3><p>Contenidos digitales por nivel.</p></li>
+        <li><span class="stepn">5</span><h3>Iniciar cada periodo escolar</h3><p>Con su proyecto ambiental.</p></li>
+        <li><span class="stepn">6</span><h3>Terminar cada periodo</h3><p>Producto y evaluación.</p></li>
+        <li><span class="stepn">7</span><h3>Graduación</h3><p>Y feria de emprendimiento verde.</p></li>
+      </ol>
+      <p class="small" style="max-width:76ch">Principios del modelo: flexibilidad, trabajo en equipo, desarrollo humano integral, cultura del emprendimiento, creatividad e innovación, competencias ciudadanas, sentido de pertenencia, fortalecimiento de la autonomía y responsabilidad social. Aportamos a los ODS 1, 4, 13 y 17, a la Agenda 2030 y a los acuerdos de la COP26 sobre soluciones basadas en la naturaleza y negocios verdes.</p>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap split">
+      <div style="flex:1 1 300px"><h2>Preguntas frecuentes de las entidades</h2></div>
+      <div style="flex:2 1 520px">
+        <details open><summary>¿Para qué grados?</summary><p>Desde preescolar hasta media; los contenidos se adaptan por nivel.</p></details>
+        <details><summary>¿Sustituye el PRAE?</summary><p>No, lo fortalece y le da una ruta de ejecución.</p></details>
+        <details><summary>¿Qué produce cada estudiante?</summary><p>Un proyecto ambiental y, en media, una idea de emprendimiento verde.</p></details>
+        <details><summary>¿Se puede implementar a nivel municipal?</summary><p>Sí, con un plan de cobertura por instituciones y puesta en marcha inmediata tras el convenio.</p></details>
+        <details><summary>¿Cómo solicitamos la propuesta?</summary><p>Escriba a formareducacion@yahoo.es con el nombre de la entidad y el número de instituciones.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-block:0 80px">
+    <div style="background:var(--tint-green);border-radius:24px;padding:40px clamp(20px,4vw,44px);display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between"><h2 style="font-size:28px;max-width:640px">Emprender también es una forma de cuidar el planeta.</h2><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a></div>
+  </div>
+</section>
+
+<!-- EL PODER DE LA FAMILIA -->
+<section id="p-familia" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 500px">
+        <a href="#inicio" data-scroll="modelos" style="font-size:14px;font-weight:600">Modelos y proyectos</a>
+        <div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:64px;height:64px;border-radius:16px;background:#F1EB9C"><svg width="38" height="38" fill="none" stroke="#2B2522" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-fam"/></svg></div><span class="small" style="font-weight:600">Programa para alcaldías, ICBF, comisarías de familia, instituciones educativas y ONG</span></div>
+        <h1 style="font-size:clamp(32px,4.2vw,50px)">El Poder de la Familia: educación y fortalecimiento familiar para su municipio</h1>
+        <p class="lead">La familia: el primer territorio donde se construye el cambio. Un programa de educación familiar en cuatro módulos, alineado con la Política Nacional para la Familia, que mejora la comunicación, fortalece los vínculos y la economía del hogar, y cierra con un símbolo que se queda en casa: el Árbol de los Sueños.</p>
+        <div class="btns"><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a><a class="btn btn-line" href="#alianzas">Pedir la presentación en PDF</a></div>
+      </div>
+      <div class="resumen" style="flex:1 1 340px">
+        <span class="k">Resumen para la entidad</span>
+        <div class="r"><span>Población objetivo</span><b>Familias urbanas y rurales; comunidades educativas de preescolar a media; sector pastoral</b></div>
+        <div class="r"><span>Marco</span><b>Política Nacional para la Familia · plan de acción transectorial · Modelo de Atención Integral (MAI)</b></div>
+        <div class="r"><span>Enfoques</span><b>Derechos humanos, territorial, diferencial, de género y étnico-cultural</b></div>
+        <div class="r"><span>Estructura</span><b>Cuatro módulos, tres momentos</b></div>
+        <div class="r"><span>Puesta en marcha</span><b>Inmediata tras la firma del convenio</b></div>
+        <div class="r"><span>Entregables</span><b>Talleres, material para la casa, Árbol de los Sueños, informes</b></div>
+        <div class="r"><span>Contacto</span><b>formareducacion@yahoo.es</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 380px;gap:16px"><h2>Lo que la política nacional busca resolver</h2><p class="lead">La Política Nacional para la Familia reconoce lo que vemos a diario: familias que no se sienten agentes de su propio cambio y conflictos que no se resuelven en casa y llegan al colegio, al barrio y al trabajo. Prepararse para el rol de familia no es un lujo: es la mejor inversión social.</p></div>
+      <ol class="steps" style="flex:1 1 400px;grid-template-columns:1fr;gap:12px">
+        <li><span class="stepn">1</span><h3>Falta de reconocimiento de la tipología familiar</h3></li>
+        <li><span class="stepn">2</span><h3>Carencia de diferentes recursos</h3></li>
+        <li><span class="stepn">3</span><h3>Diversidad étnica y cultural desatendida</h3></li>
+        <li><span class="stepn">4</span><h3>No reconocimiento de la familia como agente político</h3></li>
+        <li><span class="stepn">5</span><h3>Falta de justicia y apoyo a las comisarías de familia</h3></li>
+      </ol>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px">
+      <h2>El modelo paso a paso</h2>
+      <div class="tablebox"><table>
+        <thead><tr><th>Módulo</th><th>Nombre</th><th>Lema</th><th>Qué trabaja</th></tr></thead>
+        <tbody>
+          <tr><td>I</td><td>Componente psicoafectivo familiar</td><td>"Explorando mi ser desde la familia"</td><td>La familia funda las personalidades y afianza las potencialidades humanas</td></tr>
+          <tr><td>II</td><td>Cultura y comunicación familiar</td><td>"Desaprendiendo para aprender desde la familia"</td><td>La familia como espina dorsal en la formación de quienes se integran a la sociedad</td></tr>
+          <tr><td>III</td><td>Educación familiar</td><td>"Transformando mi realidad social desde la familia"</td><td>Diálogo en la resolución de conflictos; formadora de constructores de paz</td></tr>
+          <tr><td>IV</td><td>Emprendimiento y economía familiar</td><td>"Materializando mis sueños con mi familia"</td><td>El emprendimiento familiar como camino hacia la independencia económica</td></tr>
+        </tbody></table></div>
+      <div class="grid g3" style="gap:24px">
+        <div class="rule-top rule-yellow stack" style="gap:8px"><h3 style="font-size:17px">1 · El Poder de la Familia</h3><p class="small">Fundamentación y componentes del modelo.</p></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><h3 style="font-size:17px">2 · Construyendo mi proyecto de vida</h3><p class="small">Aplicación práctica en el entorno familiar.</p></div>
+        <div class="rule-top rule-green stack" style="gap:8px"><h3 style="font-size:17px">3 · El Árbol de los Sueños</h3><p class="small">Producto final y cierre simbólico del proceso formativo.</p></div>
+      </div>
+      <p class="small" style="max-width:76ch">Tres ejes de la política pública: reconocimiento de la diversidad de las familias, promoción de la familia como ámbito de socialización democrática, y seguridad económica y social. Macroproyecto "Familias transformando territorios": la familia transformadora de mi ser, familia constructora de paz y misión integridad familiar.</p>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div style="flex:1 1 300px"><h2>Preguntas frecuentes de las entidades</h2></div>
+      <div style="flex:2 1 520px">
+        <details open><summary>¿Quiénes participan?</summary><p>Toda la familia: padres, madres, cuidadores, abuelos e hijos. Se implementa con instituciones educativas, parroquias, comisarías y programas municipales.</p></details>
+        <details><summary>¿Cuánto dura?</summary><p>Cuatro módulos; la intensidad se acuerda con la entidad. La puesta en marcha es inmediata tras el convenio.</p></details>
+        <details><summary>¿Se puede hacer en colegios?</summary><p>Sí, es la forma más común de implementarlo, como escuela de familias de preescolar a media.</p></details>
+        <details><summary>¿Qué se lleva cada familia?</summary><p>Un acuerdo de comunicación, un proyecto de vida compartido y su Árbol de los Sueños.</p></details>
+        <details><summary>¿Cómo solicitamos la propuesta?</summary><p>Escriba a formareducacion@yahoo.es con el nombre de la entidad, el municipio y el número de familias o instituciones.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-block:0 80px">
+    <div style="background:var(--tint-yellow);border-radius:24px;padding:40px clamp(20px,4vw,44px);display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between"><h2 style="font-size:28px;max-width:640px">Una familia fuerte construye país.</h2><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a></div>
+  </div>
+</section>
+
+<!-- LIDERAZGO COMUNAL JAC -->
+<section id="p-jac" class="page" hidden>
+  <div class="band paper" style="padding-block:56px">
+    <div class="wrap split">
+      <div class="col" style="flex:1 1 500px">
+        <a href="#inicio" data-scroll="modelos" style="font-size:14px;font-weight:600">Modelos y proyectos</a>
+        <div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:64px;height:64px;border-radius:16px;background:#1E8FB3"><svg width="38" height="38" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-jac"/></svg></div><span class="small" style="font-weight:600">Programa para alcaldías, gobernaciones y secretarías de desarrollo comunitario</span></div>
+        <h1 style="font-size:clamp(32px,4.2vw,50px)">Liderazgo Comunal para Juntas de Acción Comunal: líderes formados, comunidades organizadas</h1>
+        <p class="lead">Más participación, más comunidad, más ciudad. Un programa de formación práctica orientado a resultados: cinco módulos, una ruta de trabajo en campo de tres meses y un Plan de Acción Comunitario por barrio, listo para presentar a la Alcaldía.</p>
+        <div class="btns"><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a><a class="btn btn-line" href="#alianzas">Pedir la presentación en PDF</a></div>
+      </div>
+      <div class="resumen" style="flex:1 1 340px">
+        <span class="k">Resumen para la entidad</span>
+        <div class="r"><span>Población objetivo</span><b>Presidentes y dignatarios de JAC, Asojuntas y organizaciones de base</b></div>
+        <div class="r"><span>Marco</span><b>Ley 2166 de 2021 (acción comunal) · plan de desarrollo territorial</b></div>
+        <div class="r"><span>Modalidad</span><b>Jornadas presenciales + acompañamiento en campo</b></div>
+        <div class="r"><span>Estructura</span><b>Cinco módulos y ruta de campo de tres meses</b></div>
+        <div class="r"><span>Puesta en marcha</span><b>Inmediata tras la firma del convenio</b></div>
+        <div class="r"><span>Entregables</span><b>Capacitación, kit de identidad, Plan de Acción por JAC, informes</b></div>
+        <div class="r"><span>Contacto</span><b>formareducacion@yahoo.es</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap col" style="gap:28px">
+      <h2>Cinco frentes de formación para un liderazgo comunal más efectivo</h2>
+      <p class="lead">Las Juntas de Acción Comunal son la organización social más cercana a la gente, pero muchos presidentes asumen el cargo sin formación en participación, gestión de proyectos ni economía solidaria. El resultado: necesidades sin diagnosticar y proyectos que no llegan a la Alcaldía.</p>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:20px">
+        <div class="rule-top rule-blue stack" style="gap:8px"><span class="note">Módulo 1</span><h3 style="font-size:17px">El papel del líder comunal</h3></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><span class="note">Módulo 2</span><h3 style="font-size:17px">Participación ciudadana</h3></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><span class="note">Módulo 3</span><h3 style="font-size:17px">Organización comunitaria</h3></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><span class="note">Módulo 4</span><h3 style="font-size:17px">Gestión de proyectos</h3></div>
+        <div class="rule-top rule-blue stack" style="gap:8px"><span class="note">Módulo 5</span><h3 style="font-size:17px">Economía solidaria</h3></div>
+      </div>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap col" style="gap:28px">
+      <h2>Ruta de trabajo en campo: tres meses, cinco compromisos</h2>
+      <ol class="steps">
+        <li><span class="stepn">1</span><h3>Censo rápido</h3><p>Identificación de la población del barrio.</p></li>
+        <li><span class="stepn">2</span><h3>Mapa de necesidades</h3><p>Vías, seguridad, espacio público y servicios.</p></li>
+        <li><span class="stepn">3</span><h3>Comité de participación</h3><p>Jóvenes, mujeres, comerciantes y líderes.</p></li>
+        <li><span class="stepn">4</span><h3>Asamblea mensual</h3><p>Priorización y seguimiento de compromisos.</p></li>
+        <li><span class="stepn">5</span><h3>Proyecto comunitario</h3><p>Propuesta sencilla para presentar a la Alcaldía.</p></li>
+      </ol>
+      <p class="small" style="max-width:76ch"><strong style="color:var(--fg)">Producto final:</strong> cada JAC entrega un Plan de Acción Comunitario con diagnóstico, cinco problemas priorizados, cronograma, aliados e indicadores de seguimiento.</p>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap col" style="gap:28px">
+      <h2>La Canasta Comunitaria</h2>
+      <p class="lead">Iniciativas y recursos que cada barrio construye para fortalecer la solidaridad y el desarrollo local.</p>
+      <div class="grid g3" style="gap:20px">
+        <div class="rule-top rule-green stack" style="gap:6px"><h3 style="font-size:17px">Social</h3><p class="small">Banco de alimentos, donaciones, apoyo a familias.</p></div>
+        <div class="rule-top rule-green stack" style="gap:6px"><h3 style="font-size:17px">Ambiental</h3><p class="small">Limpieza, siembra de árboles, huertas, reciclaje.</p></div>
+        <div class="rule-top rule-green stack" style="gap:6px"><h3 style="font-size:17px">Cultural</h3><p class="small">Danza, música, teatro, biblioteca comunitaria.</p></div>
+        <div class="rule-top rule-green stack" style="gap:6px"><h3 style="font-size:17px">Deportiva</h3><p class="small">Torneos, caminatas, recreación infantil.</p></div>
+        <div class="rule-top rule-green stack" style="gap:6px"><h3 style="font-size:17px">Emprendimiento</h3><p class="small">Ferias, capacitación, bolsa de empleo.</p></div>
+        <div class="rule-top rule-green stack" style="gap:6px"><h3 style="font-size:17px">Seguridad</h3><p class="small">Frentes de seguridad, planes de emergencia.</p></div>
+      </div>
+      <p class="small">Identidad del programa: gorras, camisas, agendas, separadores, bolso y folleto dan visibilidad a cada jornada.</p>
+    </div>
+  </div>
+  <div class="band paper">
+    <div class="wrap split">
+      <div style="flex:1 1 300px"><h2>Preguntas frecuentes de las entidades</h2></div>
+      <div style="flex:2 1 520px">
+        <details open><summary>¿Quién puede participar?</summary><p>Presidentes y dignatarios de JAC; también líderes de Asojuntas y organizaciones de base.</p></details>
+        <details><summary>¿Cuánto dura?</summary><p>Las jornadas de capacitación más tres meses de ruta en campo con acompañamiento. La puesta en marcha es inmediata tras el convenio.</p></details>
+        <details><summary>¿Qué recibe cada participante?</summary><p>Material didáctico, kit de identidad del programa y certificado.</p></details>
+        <details><summary>¿Cómo se contrata?</summary><p>A través de alcaldías y gobernaciones; solicite la propuesta técnica en formareducacion@yahoo.es.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-block:0 80px">
+    <div style="background:var(--tint-blue);border-radius:24px;padding:40px clamp(20px,4vw,44px);display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between"><h2 style="font-size:28px;max-width:640px">Hacia un territorio más participativo: líderes formados y comunidades que construyen desde los barrios.</h2><a class="btn btn-green" href="#alianzas">Solicitar propuesta técnica</a></div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap col" style="gap:40px">
+    <div class="cols">
+      <div class="stack" style="gap:12px;max-width:360px"><span class="logo-img" role="img" aria-label="Emprender 2025, Modelo Educativo Flexible" style="width:196px;height:72px;background-color:#FFFFFF;padding:4px;border-radius:10px"></span><p class="small" style="color:var(--band-muted)">Emprender 2025 · Modelo Educativo Flexible. Diseñamos y operamos programas educativos en todos los departamentos de Colombia. Un modelo nacido en Ibagué, Tolima.</p></div>
+      <nav aria-label="Secciones"><strong>Emprender 2025</strong><a href="#inicio" data-scroll="modelos">Modelos y proyectos</a><a href="#inicio" data-scroll="implementacion">Cómo trabajamos</a><a href="#alianzas">Trabajemos juntos</a><a href="#inicio" data-scroll="actualidad">Actualidad</a></nav>
+      <nav aria-label="Portal"><strong>Portal educativo</strong><a href="#portal">Ingreso estudiantes</a><a href="#portal">Ingreso docentes</a><a href="#portal">Activar cuenta</a></nav>
+      <div class="stack" style="gap:10px;font-size:14px"><strong>Contacto</strong><span class="email">formareducacion@yahoo.es <button class="copy" type="button" data-copy="formareducacion@yahoo.es">Copiar</button></span><span style="color:var(--band-muted)">Colombia · sede principal en Ibagué, Tolima</span><a href="#inicio">Política de tratamiento de datos</a><a href="#inicio">Transparencia y rendición de cuentas</a></div>
+    </div>
+    <p class="note" style="color:var(--band-muted);border-top:1px solid var(--band-line);padding-top:20px">© 2026 Emprender 2025 · Modelo Educativo Flexible. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</div>
+
+<!-- ============ PORTAL EDUCATIVO ============ -->
+<div id="portal" hidden>
+
+<!-- INGRESO -->
+<section id="p-portal" class="page" hidden>
+  <div class="login">
+    <aside>
+      <a class="brand" href="#inicio"><span class="logo-img" role="img" aria-label="Emprender 2025" style="width:190px;height:70px;background-color:#FFFFFF;padding:4px"></span></a>
+      <div class="col" style="gap:18px;max-width:420px"><h1 style="font-size:40px">Portal educativo</h1><p style="font-size:17px;color:var(--band-muted)">Tu espacio para la formación virtual y complementaria: módulos, recursos digitales, seguimiento y certificados. Entras con el usuario que te asignó tu institución o tu programa.</p><ul><li>Estudiantes: módulos de tu ciclo, actividades y progreso.</li><li>Docentes: grupos, seguimiento, recursos de aula y formación docente.</li><li>Funciona en celular, con descarga de videos en baja calidad.</li></ul></div>
+      <p class="note">Emprender 2025 · Modelo Educativo Flexible</p>
+    </aside>
+    <main>
+      <form id="f-login" style="width:100%;max-width:440px;display:flex;flex-direction:column;gap:20px" novalidate>
+        <div class="stack" style="gap:6px"><h2 style="font-size:26px">Ingresa a tu formación</h2><p class="small">Elige tu rol y usa tu documento de identidad como usuario.</p></div>
+        <div style="display:flex;gap:10px" role="group" aria-label="Rol">
+          <button type="button" class="role on" id="rol-est" data-rol="estudiante"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>Estudiante</button>
+          <button type="button" class="role" id="rol-doc" data-rol="docente"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H4z"/><path d="M8 21h8M12 16v5"/></svg>Docente</button>
+        </div>
+        <label class="field">Tipo de documento<select id="lg-tipo"><option>Cédula de ciudadanía</option><option>Tarjeta de identidad</option><option>Cédula de extranjería</option><option>Pasaporte</option></select></label>
+        <label class="field">Número de documento<input id="lg-doc" type="text" inputmode="numeric" placeholder="Sin puntos ni espacios"></label>
+        <label class="field">Contraseña<input id="lg-pass" type="password" placeholder="La que creaste al activar tu cuenta"></label>
+        <button class="btn btn-green" type="submit">Entrar al portal</button>
+        <p class="note" id="lg-hint">Prototipo: entra con cualquier dato para ver el panel del rol elegido.</p>
+        <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:14px"><a href="#portal" style="font-weight:600">Olvidé mi contraseña</a><a href="#portal" style="font-weight:600">Primera vez: activar mi cuenta</a></div>
+        <div style="background:var(--tint-green);border-radius:12px;padding:16px" class="stack"><strong>¿Cómo activo mi cuenta?</strong><span class="small" style="font-size:13px">Tu institución o tu docente te entrega un código de activación. Con tu documento y ese código creas tu contraseña en menos de un minuto.</span><span class="small" style="font-size:13px">¿No tienes código? Pregunta en tu institución educativa o escribe a formareducacion@yahoo.es.</span></div>
+      </form>
+    </main>
+  </div>
+</section>
+
+<!-- PANEL ESTUDIANTE -->
+<section id="p-estudiante" class="page" hidden>
+  <header class="portal-top"><div class="wrap">
+    <a class="brand" href="#inicio"><span class="logo-img" role="img" aria-label="Emprender 2025" style="width:140px;height:52px"></span><span class="ctx">Portal educativo · Estudiante</span></a>
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><span class="ctx">I. E. [Nombre de la institución] · Programa Jóvenes y Adultos · Convenio Alcaldía de Ibagué</span><a class="btn btn-line btn-sm" href="#docente">Escribir a mi docente</a><span style="display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px"><span class="avatar">Y</span>Yolanda</span><a href="#portal" class="small" style="font-weight:600">Salir</a></div>
+  </div></header>
+  <div class="app">
+    <nav class="side" aria-label="Portal del estudiante">
+      <a href="#estudiante" class="on">Inicio</a><a href="#leccion">Mis módulos</a><a href="#estudiante">Mi progreso</a><a href="#estudiante">Mis productos</a><a href="#estudiante">Encuentros</a><a href="#estudiante">Ayuda</a>
+    </nav>
+    <main class="main-app">
+      <div class="stack" style="gap:6px"><h1 style="font-size:30px">Hola de nuevo, Yolanda.</h1><p class="small" style="font-size:16px">Vas en el 45 % de tu bachillerato, ciclo CLEI IV. Te falta poco para cerrar el Módulo 3: ¿seguimos?</p></div>
+      <div class="card" style="background:var(--band);border-color:var(--band);color:var(--band-fg);flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px">
+        <div class="stack" style="gap:6px;min-width:0"><span style="font-size:12px;font-weight:700;color:#8BC53F">Continúa donde lo dejaste</span><strong style="font-size:20px">Módulo 3 · Lección 4 de 6: Leer para decidir</strong><span style="font-size:14px;color:var(--band-muted)">12 minutos · Saberes básicos</span></div>
+        <a class="btn btn-green" href="#leccion">Continuar</a>
+      </div>
+      <div class="grid g3" style="gap:20px">
+        <div class="card" style="grid-column:span 2"><div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Mi progreso</h2><span class="small">3 de 7 módulos</span></div><div class="bar" role="img" aria-label="Progreso 45 por ciento"><i style="width:45%"></i></div><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px" class="small"><span><strong style="color:var(--fg);font-size:22px">45 %</strong> completado</span><span>Meta: bachiller en diciembre</span></div></div>
+        <div class="card" style="background:var(--tint-yellow)"><h2>Racha de estudio</h2><span style="font-size:36px;font-weight:800;line-height:1">4 días</span><span class="small">seguidos. ¡Hoy cuenta también!</span></div>
+      </div>
+      <div class="stack"><h2 style="font-size:20px">Mis módulos</h2>
+        <div style="display:flex;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:#59CBE8"></span><strong style="font-size:14px">Saberes básicos</strong></div>
+        <div class="grid g3" style="gap:14px">
+          <div class="mod"><span class="st done">✓ Completado</span><strong>Módulo 1 · Lecturas</strong><span class="note">6 lecciones · 1 h 20 min</span></div>
+          <div class="mod"><span class="st done">✓ Completado</span><strong>Módulo 2 · Pedagógico I</strong><span class="note">8 lecciones · 2 h</span></div>
+          <a class="mod on" href="#leccion" style="color:inherit"><span class="st cur">● En curso · 60 %</span><strong>Módulo 3 · Pedagógico II</strong><span class="note">6 lecciones · 1 h 30 min</span></a>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:6px"><span style="width:12px;height:12px;border-radius:50%;background:#F1EB9C;border:1px solid #D9D08A"></span><strong style="font-size:14px">Desarrollo humano</strong></div>
+        <div class="grid g3" style="gap:14px">
+          <div class="mod lock"><span class="st">Se abre al terminar el Módulo 3</span><strong>Módulo 4 · Proyecto de vida</strong><span class="note">5 lecciones · 1 h</span></div>
+          <div class="mod lock"><span class="st">Bloqueado</span><strong>Módulo 5 · Educación física</strong><span class="note">4 lecciones · 50 min</span></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:6px"><span style="width:12px;height:12px;border-radius:50%;background:#8BC53F"></span><strong style="font-size:14px">Emprendimiento</strong></div>
+        <div class="grid g3" style="gap:14px">
+          <div class="mod lock"><span class="st">Bloqueado</span><strong>Módulo 6 · Mi idea de negocio</strong><span class="note">6 lecciones · 1 h 40 min</span></div>
+          <div class="mod lock"><span class="st">Bloqueado</span><strong>Módulo 7 · Feria de Emprendimiento</strong><span class="note">Proyecto final</span></div>
+        </div>
+      </div>
+      <div class="grid g3" style="gap:20px">
+        <div class="card" style="background:var(--tint-blue)"><h2>Próximo encuentro presencial</h2><strong style="font-size:18px">Sábado 18 de octubre · 8:00 a. m.</strong><span class="small">I. E. aliada · Ibagué, salón 2</span><a class="btn btn-line btn-sm" style="align-self:flex-start" href="#estudiante">Agregar a mi calendario</a></div>
+        <div class="card"><h2>Mis productos</h2><div class="lrow"><span>Mapa emocional</span><span style="color:var(--teal-ink);font-weight:700">Revisado</span></div><div class="lrow"><span>Resumen de lectura</span><span style="color:var(--blue-ink);font-weight:700">Enviado</span></div><div class="lrow"><span>Proyecto de vida</span><span style="color:var(--muted);font-weight:700">Pendiente</span></div></div>
+        <div class="card"><h2>Mis logros y formación complementaria</h2><div style="display:flex;gap:10px;flex-wrap:wrap"><span class="avatar" style="width:52px;height:52px;background:#7AD1C1">M1</span><span class="avatar" style="width:52px;height:52px;background:#7AD1C1">M2</span><span class="avatar" style="width:52px;height:52px;background:#F1EB9C;color:#2B2522">3d</span><span class="avatar" style="width:52px;height:52px;background:var(--track);color:var(--muted);border:2px dashed var(--line)">?</span></div><span class="small">Tu certificado se desbloquea al terminar el Módulo 7. Mientras tanto, puedes tomar cursos cortos abiertos: <a href="#leccion" style="font-weight:700">Finanzas para mi emprendimiento</a>.</span></div>
+      </div>
+    </main>
+  </div>
+</section>
+
+<!-- PANEL DOCENTE -->
+<section id="p-docente" class="page" hidden>
+  <header class="portal-top"><div class="wrap">
+    <a class="brand" href="#inicio"><span class="logo-img" role="img" aria-label="Emprender 2025" style="width:140px;height:52px"></span><span class="ctx">Portal educativo · Docente</span></a>
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><span class="ctx">I. E. [Nombre de la institución] · Convenio Alcaldía de Ibagué 2026</span><span style="display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px"><span class="avatar" style="background:#F1EB9C;color:#2B2522">C</span>Carlos Mendoza</span><a href="#portal" class="small" style="font-weight:600">Salir</a></div>
+  </div></header>
+  <div class="app">
+    <nav class="side" aria-label="Portal del docente">
+      <a href="#docente" class="on">Inicio</a><a href="#docente">Mis grupos</a><a href="#docente">Seguimiento</a><a href="#docente">Entregas</a><a href="#docente">Recursos de aula</a><a href="#leccion">Mi formación</a><a href="#docente">Reportes</a><a href="#docente">Ayuda</a>
+    </nav>
+    <main class="main-app">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:flex-end">
+        <div class="stack" style="gap:6px;min-width:0"><h1 style="font-size:30px">Hola, Carlos.</h1><p class="small" style="font-size:16px">Tienes 7 entregas por revisar y 3 estudiantes sin actividad en los últimos 10 días. El próximo encuentro presencial es el sábado 18 de octubre.</p></div>
+        <button class="btn btn-green" type="button" id="btn-informe">Generar informe de octubre</button>
+      </div>
+      <div class="ok" id="informe-ok" hidden>Informe de octubre generado para la coordinación y la entidad: asistencia, avance, entregas y alertas atendidas de tus dos grupos. (Prototipo)</div>
+      <div class="grid g2" style="gap:20px">
+        <div class="card"><div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2 style="font-size:18px">CLEI IV · Grupo A</h2><span class="note">28 estudiantes</span></div><div class="bar" role="img" aria-label="Avance promedio 45 por ciento"><i style="width:45%"></i></div><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px" class="small"><span><strong style="color:var(--fg)">45 %</strong> avance promedio</span><span>Módulo 3 en curso</span><span>Asistencia sept.: 86 %</span></div><div class="btns"><a class="btn btn-line btn-sm" href="#docente">Ver estudiantes</a><a class="btn btn-line btn-sm" href="#docente">Tomar asistencia</a></div></div>
+        <div class="card"><div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2 style="font-size:18px">CLEI V · Grupo B</h2><span class="note">22 estudiantes</span></div><div class="bar" role="img" aria-label="Avance promedio 62 por ciento"><i style="width:62%"></i></div><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px" class="small"><span><strong style="color:var(--fg)">62 %</strong> avance promedio</span><span>Módulo 4 en curso</span><span>Asistencia sept.: 91 %</span></div><div class="btns"><a class="btn btn-line btn-sm" href="#docente">Ver estudiantes</a><a class="btn btn-line btn-sm" href="#docente">Tomar asistencia</a></div></div>
+      </div>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px">
+        <div class="card"><h2>Alertas tempranas</h2><p class="note">Estudiantes sin actividad en el portal o sin asistencia reciente. Un mensaje a tiempo evita la deserción.</p><div style="overflow-x:auto"><table class="pt"><thead><tr><th>Estudiante</th><th>Grupo</th><th>Último acceso</th><th>Avance</th><th></th></tr></thead><tbody><tr><td>María Eugenia Torres</td><td>CLEI IV A</td><td>hace 14 días</td><td>31 %</td><td><a href="#docente" style="font-weight:700">Escribir</a></td></tr><tr><td>Jhon Jairo Parra</td><td>CLEI IV A</td><td>hace 12 días</td><td>40 %</td><td><a href="#docente" style="font-weight:700">Escribir</a></td></tr><tr><td>Luz Dary Ospina</td><td>CLEI V B</td><td>hace 10 días</td><td>58 %</td><td><a href="#docente" style="font-weight:700">Escribir</a></td></tr></tbody></table></div></div>
+        <div class="card"><div style="display:flex;justify-content:space-between;align-items:baseline"><h2>Entregas por revisar</h2><span class="st" style="background:var(--tint-yellow);color:var(--fg)">7 pendientes</span></div><div class="lrow"><span>Yolanda Rodríguez · Módulo 3, lección 4</span><a href="#docente" style="font-weight:700;white-space:nowrap">Revisar</a></div><div class="lrow"><span>Andrés Oviedo · Proyecto de vida</span><a href="#docente" style="font-weight:700;white-space:nowrap">Revisar</a></div><div class="lrow"><span>Sandra Milena Ruiz · Resumen de lectura</span><a href="#docente" style="font-weight:700;white-space:nowrap">Revisar</a></div><div class="lrow"><span>4 entregas más</span><a href="#docente" style="font-weight:700;white-space:nowrap">Ver todas</a></div></div>
+      </div>
+      <div class="grid g2" style="gap:20px">
+        <div class="card"><h2>Recursos de aula</h2><div class="lrow"><span>Guía docente del Modelo Educativo Flexible (PDF)</span><span class="note">Descargar</span></div><div class="lrow"><span>Objetos virtuales de aprendizaje · CLEI IV y V</span><span class="note">Abrir</span></div><div class="lrow"><span>Plantillas de la Feria de Emprendimiento</span><span class="note">Descargar</span></div><div class="lrow"><span>Formato de asistencia y seguimiento mensual</span><span class="note">Descargar</span></div></div>
+        <div class="card"><h2>Mi formación docente</h2><div class="stack" style="gap:6px"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Formación en el Modelo Educativo Flexible</span><strong>80 %</strong></div><div class="bar" style="height:8px"><i style="width:80%"></i></div></div><div class="stack" style="gap:6px"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Salud, motivación y sensibilización docente</span><strong>25 %</strong></div><div class="bar" style="height:8px"><i style="width:25%;background:#59CBE8"></i></div></div><div class="stack" style="gap:6px"><div style="display:flex;justify-content:space-between;font-size:14px"><span>Detección temprana en salud mental escolar</span><strong>Nuevo</strong></div><div class="bar" style="height:8px"><i style="width:0%"></i></div></div><a class="btn btn-line btn-sm" style="align-self:flex-start" href="#leccion">Continuar mi formación</a></div>
+      </div>
+    </main>
+  </div>
+</section>
+
+<!-- LECCIÓN -->
+<section id="p-leccion" class="page" hidden>
+  <header class="portal-top"><div class="wrap">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap"><a href="#estudiante" style="display:flex;align-items:center;gap:8px;font-weight:600;font-size:15px;color:var(--fg)">← Mi panel</a><span class="ctx">Programa Jóvenes y Adultos · CLEI IV · <strong style="color:var(--fg)">Módulo 3 · Pedagógico II</strong></span></div>
+    <div style="display:flex;align-items:center;gap:12px;min-width:220px"><span class="note" style="white-space:nowrap">Módulo 60 %</span><div class="bar" style="flex:1;height:10px" role="img" aria-label="Progreso del módulo 60 por ciento"><i style="width:60%"></i></div></div>
+  </div></header>
+  <div class="app">
+    <main class="main-app" style="background:var(--bg)">
+      <div class="stack" style="gap:8px"><span style="font-size:13px;font-weight:700;color:var(--blue-ink)">Lección 4 de 6 · 12 minutos</span><h1 style="font-size:30px">Leer para decidir: cómo identificar la idea principal</h1><p class="small" style="font-size:16px">Hoy aprenderás a encontrar la idea principal de un texto y a usarla para tomar mejores decisiones en tu trabajo y en tu casa.</p></div>
+      <div class="player"><img class="poster" src="img/leccion-video-poster.jpg" alt="" aria-hidden="true"><button type="button" id="play" aria-label="Reproducir video"><svg width="34" height="34" viewBox="0 0 24 24" fill="#1F2A10" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="t" style="left:20px">Subtítulos activados · Descargar en baja calidad</span><span class="t" style="right:20px" id="ptime">0:00 / 12:04</span></div>
+      <div style="display:flex;align-items:center;gap:14px;background:var(--tint-yellow);border-radius:14px;padding:16px 20px"><svg width="28" height="28" viewBox="0 0 64 56" aria-hidden="true"><use href="#canopy" fill="#8BC53F"/></svg><p style="font-size:17px;font-weight:600;line-height:1.5" id="frase">Cada minuto que estudias hoy es un paso que nadie te puede quitar.</p></div>
+      <div class="card"><h2 style="font-size:18px">Material de lectura</h2><p class="small" style="font-size:15px">Tómate tu tiempo. Puedes subrayar, descargar el PDF y volver cuantas veces quieras. Al final hay una actividad corta para que lo aprendido se vuelva tuyo.</p><div class="btns"><a class="btn btn-line btn-sm" href="#leccion">Descargar material (PDF, 2 págs.)</a><a class="btn btn-line btn-sm" href="#leccion">Escuchar la lectura en audio</a></div></div>
+      <form class="card" id="f-act" style="border-color:var(--green)" novalidate><h2 style="font-size:18px">Ahora te toca a ti</h2><p class="small" style="font-size:15px">Escoge una noticia o un aviso que hayas leído esta semana y escribe en dos líneas cuál era su idea principal y qué decidiste con esa información. Puedes enviarlo como foto, audio o texto; tu docente lo revisará y te responderá en máximo 3 días.</p><label class="field">Tu respuesta<textarea id="act-txt" rows="3" placeholder="Escribe aquí o adjunta una foto o un audio…"></textarea></label><div class="btns"><button class="btn btn-ink btn-sm" type="submit">Enviar a mi docente</button><button class="btn btn-line btn-sm" type="button">Adjuntar foto o audio</button></div><div class="ok" id="act-ok" hidden>Enviado. Tu docente Carlos Mendoza lo revisará y te responderá en máximo 3 días.</div></form>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center"><a class="btn btn-line" href="#leccion">← Lección anterior</a><div class="btns"><button class="btn btn-line" type="button" id="vista">Marcar como vista</button><a class="btn btn-green" href="#estudiante">Siguiente lección →</a></div></div>
+      <div class="toast" id="toast" hidden>✓ ¡Lección completada! Te faltan 2 para cerrar este módulo.</div>
+    </main>
+    <aside class="side" style="max-width:340px;flex:1 1 280px;border-right:0;border-left:1px solid var(--line2);gap:14px;padding:32px 20px">
+      <h2 style="font-size:16px">Módulo 3 · Pedagógico II</h2>
+      <nav aria-label="Lecciones del módulo" style="display:flex;flex-direction:column;gap:2px">
+        <a class="les" href="#leccion"><span class="dot done">✓</span>1. Qué es un texto y para qué sirve</a>
+        <a class="les" href="#leccion"><span class="dot done">✓</span>2. Tipos de texto en la vida diaria</a>
+        <a class="les" href="#leccion"><span class="dot done">✓</span>3. Palabras clave y contexto</a>
+        <a class="les on" href="#leccion"><span class="dot cur">4</span>4. Leer para decidir</a>
+        <a class="les" href="#leccion" style="color:var(--muted)"><span class="dot">5</span>5. Resumir con mis palabras</a>
+        <a class="les" href="#leccion" style="color:var(--muted)"><span class="dot">6</span>6. Producto: mi lectura aplicada</a>
+      </nav>
+      <div style="background:var(--tint-blue);border-radius:14px;padding:16px" class="stack"><strong style="font-size:14px">¿Tienes dudas?</strong><span class="note">Tu docente, Carlos Mendoza, responde en máximo 3 días.</span><a class="btn btn-line btn-sm" style="align-self:flex-start" href="#docente">Preguntar a mi docente</a></div>
+    </aside>
+  </div>
+</section>
+</div>
+
+<script src="js/Script.js"></script>
+</body>
+</html>
